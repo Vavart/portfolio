@@ -72,6 +72,247 @@ a {
   color: hsl(0deg, 0%, 100%);
 }
 
+:root {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  width: 100%;
+  background: linear-gradient(180deg, #F9F9F9 0.15%, #B0E0FF 290%);
+}
+
+.page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
+  flex-direction: column;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0px;
+  justify-content: space-between;
+  background: hsl(203deg, 39%, 12%);
+  padding: 0.625rem 3.125rem;
+}
+nav .nav-brand {
+  width: 50px;
+  height: 50px;
+}
+nav .nav-brand img {
+  width: 100%;
+  height: 100%;
+}
+nav .nav-links a:first-child {
+  margin-right: 30px;
+}
+nav .nav-links a {
+  font-family: "Urbanist-Bold", sans-serif;
+  font-size: 1.125rem;
+  color: hsl(0deg, 0%, 100%);
+}
+nav .nav-links a:hover {
+  color: hsl(67deg, 100%, 50%);
+}
+nav .nav-links a.active {
+  color: hsl(67deg, 100%, 50%);
+}
+nav .lang {
+  border: none;
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  cursor: pointer;
+}
+nav .lang .cont-flag {
+  width: 30px;
+  height: 30px;
+}
+nav .lang .cont-flag img {
+  width: 100%;
+  height: 100%;
+}
+nav .lang span {
+  font-family: "Urbanist-Regular", sans-serif;
+  color: hsl(0deg, 0%, 100%);
+}
+
+footer {
+  margin-top: 12.5rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0px;
+  justify-content: space-between;
+  background: hsl(203deg, 39%, 12%);
+  padding: 1.25rem 3.125rem;
+}
+footer .footer-brand {
+  width: 40px;
+  height: 40px;
+}
+footer .footer-brand img {
+  width: 100%;
+  height: 100%;
+}
+footer .footer-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+footer .footer-text p {
+  font-family: "Urbanist-Regular", sans-serif;
+  font-size: 1.125rem;
+  color: hsl(203deg, 39%, 12%);
+  line-height: 1.5;
+  letter-spacing: 1%;
+  color: hsl(0deg, 0%, 100%);
+}
+footer .footer-text img {
+  width: 20px;
+  height: 20px;
+}
+footer .cont-socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+footer .cont-socials .social {
+  width: 30px;
+  height: 30px;
+}
+footer .cont-socials .social img {
+  width: 100%;
+  height: 100%;
+}
+
+h1 {
+  font-family: "Urbanist-Black", sans-serif;
+  font-size: clamp(2.5rem, 10vw, 5.125rem);
+  color: hsl(203deg, 39%, 12%);
+  letter-spacing: 2px;
+  line-height: 1.1;
+}
+h1 span {
+  position: relative;
+}
+
+h2 {
+  font-family: "Urbanist-Black", sans-serif;
+  font-size: clamp(2.5rem, 10vw, 5.125rem);
+  color: hsl(203deg, 39%, 12%);
+  letter-spacing: 2px;
+  line-height: 1.1;
+  font-family: "Urbanist-SemiBold", sans-serif;
+  font-size: clamp(2rem, 4vw, 3rem);
+}
+h2 span {
+  position: relative;
+}
+
+h3 {
+  font-family: "Urbanist-Black", sans-serif;
+  font-size: clamp(2.5rem, 10vw, 5.125rem);
+  color: hsl(203deg, 39%, 12%);
+  letter-spacing: 2px;
+  line-height: 1.1;
+  font-family: "Urbanist-Medium", sans-serif;
+  font-size: clamp(1.5rem, 2.5vw, 1.875rem);
+}
+h3 span {
+  position: relative;
+}
+
+h1.after {
+  font-family: "Urbanist-Black", sans-serif;
+  font-size: clamp(2.5rem, 10vw, 5.125rem);
+  color: hsl(203deg, 39%, 12%);
+  letter-spacing: 2px;
+  line-height: 1.1;
+}
+h1.after span {
+  position: relative;
+}
+h1.after span::after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 15px;
+  right: 0;
+  z-index: -1;
+  width: 6.25rem;
+  height: 1.25rem;
+  background: hsl(67deg, 100%, 50%);
+}
+
+h2.after {
+  font-family: "Urbanist-Black", sans-serif;
+  font-size: clamp(2.5rem, 10vw, 5.125rem);
+  color: hsl(203deg, 39%, 12%);
+  letter-spacing: 2px;
+  line-height: 1.1;
+  font-family: "Urbanist-SemiBold", sans-serif;
+  font-size: clamp(2rem, 4vw, 3rem);
+}
+h2.after span {
+  position: relative;
+}
+h2.after span::after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 15px;
+  right: 0;
+  z-index: -1;
+  width: 6.25rem;
+  height: 1.25rem;
+  background: hsl(67deg, 100%, 50%);
+}
+h2.after span::after {
+  bottom: 8px;
+  width: 3.125rem;
+  height: 0.625rem;
+}
+
+h3.after {
+  font-family: "Urbanist-Black", sans-serif;
+  font-size: clamp(2.5rem, 10vw, 5.125rem);
+  color: hsl(203deg, 39%, 12%);
+  letter-spacing: 2px;
+  line-height: 1.1;
+  font-family: "Urbanist-Medium", sans-serif;
+  font-size: clamp(1.5rem, 2.5vw, 1.875rem);
+}
+h3.after span {
+  position: relative;
+}
+h3.after span::after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 15px;
+  right: 0;
+  z-index: -1;
+  width: 6.25rem;
+  height: 1.25rem;
+  background: hsl(67deg, 100%, 50%);
+}
+h3.after span::after {
+  bottom: 5px;
+  width: 3.125rem;
+  height: 0.3125rem;
+}
+
 p {
   font-family: "Urbanist-Regular", sans-serif;
   font-size: 1.125rem;
@@ -80,84 +321,44 @@ p {
   letter-spacing: 1%;
 }
 
-h1 {
-  font-family: "Urbanist-Black", sans-serif;
-  font-size: clamp(2.5rem, 10vw, 5.125rem);
-  color: hsl(203deg, 39%, 12%);
-  letter-spacing: 2px;
-}
-h1 span {
-  position: relative;
-}
-h1 span::after {
-  content: "";
-  display: block;
-  position: absolute;
-  bottom: 15px;
-  right: 0;
-  z-index: -1;
-  width: 6.25rem;
-  height: 1.25rem;
-  background: hsl(67deg, 100%, 50%);
-}
-
-h2 {
-  font-family: "Urbanist-Black", sans-serif;
-  font-size: clamp(2.5rem, 10vw, 5.125rem);
-  color: hsl(203deg, 39%, 12%);
-  letter-spacing: 2px;
-  font-family: "Urbanist-SemiBold", sans-serif;
-  font-size: clamp(2rem, 4vw, 3rem);
-}
-h2 span {
-  position: relative;
-}
-h2 span::after {
-  content: "";
-  display: block;
-  position: absolute;
-  bottom: 15px;
-  right: 0;
-  z-index: -1;
-  width: 6.25rem;
-  height: 1.25rem;
-  background: hsl(67deg, 100%, 50%);
-}
-h2 span::after {
-  bottom: 8px;
-  width: 3.125rem;
-  height: 0.625rem;
-}
-
-h3 {
-  font-family: "Urbanist-Black", sans-serif;
-  font-size: clamp(2.5rem, 10vw, 5.125rem);
-  color: hsl(203deg, 39%, 12%);
-  letter-spacing: 2px;
-  font-family: "Urbanist-Medium", sans-serif;
-  font-size: clamp(1.5rem, 2.5vw, 1.875rem);
-}
-h3 span {
-  position: relative;
-}
-h3 span::after {
-  content: "";
-  display: block;
-  position: absolute;
-  bottom: 15px;
-  right: 0;
-  z-index: -1;
-  width: 6.25rem;
-  height: 1.25rem;
-  background: hsl(67deg, 100%, 50%);
-}
-h3 span::after {
-  bottom: 5px;
-  width: 3.125rem;
-  height: 0.3125rem;
-}
-
 .btn-cta {
+  border: none;
+  outline: none;
+  font-family: "Urbanist-Regular", sans-serif;
+  font-size: 1.125rem;
+  color: hsl(203deg, 39%, 12%);
+  line-height: 1.5;
+  letter-spacing: 1%;
+  font-family: "Urbanist-Bold", sans-serif;
+  padding: 0.625rem 1.25rem;
+  border-radius: 0.3125rem;
+  background-color: hsl(67deg, 100%, 50%);
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+.btn-cta:hover {
+  background-color: hsl(67deg, 100%, 45%);
+}
+
+.btn-cta.ghost {
+  border: none;
+  outline: none;
+  font-family: "Urbanist-Regular", sans-serif;
+  font-size: 1.125rem;
+  color: hsl(203deg, 39%, 12%);
+  line-height: 1.5;
+  letter-spacing: 1%;
+  font-family: "Urbanist-Bold", sans-serif;
+  padding: 0.625rem 1.25rem;
+  border-radius: 0.3125rem;
+  background-color: hsl(67deg, 100%, 50%);
+  cursor: pointer;
+  border: 2px solid hsl(67deg, 100%, 50%);
+  background: transparent;
+  color: hsl(67deg, 100%, 50%);
+}
+
+.btn-cta.icon {
   border: none;
   outline: none;
   font-family: "Urbanist-Regular", sans-serif;
@@ -176,16 +377,145 @@ h3 span::after {
   align-items: center;
   gap: 10px;
 }
-.btn-cta:hover {
+.btn-cta.icon:hover {
   background-color: hsl(67deg, 100%, 45%);
 }
-.btn-cta img {
+.btn-cta.icon img {
   width: 30px;
   height: 30px;
 }
 
-body {
-  padding: 0 50px 200px;
+.btn-cta.icon.ghost {
+  border: none;
+  outline: none;
+  font-family: "Urbanist-Regular", sans-serif;
+  font-size: 1.125rem;
+  color: hsl(203deg, 39%, 12%);
+  line-height: 1.5;
+  letter-spacing: 1%;
+  font-family: "Urbanist-Bold", sans-serif;
+  padding: 0.625rem 1.25rem;
+  border-radius: 0.3125rem;
+  background-color: hsl(67deg, 100%, 50%);
+  cursor: pointer;
+  border: 2px solid hsl(67deg, 100%, 50%);
+  background: transparent;
+  color: hsl(67deg, 100%, 50%);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.btn-cta.icon.ghost img {
+  width: 30px;
+  height: 30px;
+}
+
+#hero {
+  margin-top: 6.25rem;
+  width: 100%;
+  padding: 0.625rem 3.125rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 75px;
+  justify-content: space-around;
+}
+#hero .left-presentation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-basis: 40%;
+}
+#hero .right-photo {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-direction: column;
+  flex-basis: 40%;
+}
+#hero .right-photo .arrow-its-me {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0px;
+  flex-direction: column;
+  transform: rotate(-10deg);
+}
+#hero .right-photo .arrow-its-me span {
+  font-family: "Urbanist-Bold", sans-serif;
+  font-size: 1.125rem;
+  color: hsl(203deg, 39%, 12%);
+  transform: translateX(-1.25rem) rotate(-16deg);
+}
+#hero .right-photo .cont-photo {
+  width: 25rem;
+  height: 25rem;
+}
+#hero .right-photo .cont-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#hero .cont-socials {
+  margin-top: 0.625rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+#hero .cont-socials .social {
+  width: 40px;
+  height: 40px;
+}
+#hero .cont-socials .social img {
+  width: 100%;
+  height: 100%;
+}
+
+#testimonies {
+  width: 100%;
+  background: hsl(203deg, 39%, 12%);
+  padding: 6.25rem 0;
+  clip-path: polygon(0 5%, 100% 0, 100% 95%, 0% 100%);
+}
+#testimonies h2 {
+  font-family: "Urbanist-Black", sans-serif;
+  font-size: clamp(2.5rem, 10vw, 5.125rem);
+  color: hsl(203deg, 39%, 12%);
+  letter-spacing: 2px;
+  line-height: 1.1;
+  font-family: "Urbanist-SemiBold", sans-serif;
+  font-size: clamp(2rem, 4vw, 3rem);
+  color: hsl(0deg, 0%, 100%);
+  text-align: center;
+}
+#testimonies h2 span {
+  position: relative;
+}
+#testimonies hr {
+  width: 10%;
+  height: 3px;
+  margin: 0.625rem auto;
+  border: none;
+  border-radius: 9999px;
+  background: hsl(67deg, 100%, 50%);
+}
+#testimonies .cont-testimonies {
+  margin-top: 6.25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }
 
 .testimony-card {
@@ -234,6 +564,19 @@ body {
   font-size: 0.875rem;
 }
 
+#projects {
+  width: 100%;
+  padding: 0.625rem 3.125rem;
+}
+#projects .cont-projects {
+  margin-top: 3.75rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  justify-content: flex-start;
+}
+
 .project-card {
   display: inline-flex;
   justify-content: center;
@@ -275,6 +618,7 @@ body {
   font-size: clamp(2.5rem, 10vw, 5.125rem);
   color: hsl(203deg, 39%, 12%);
   letter-spacing: 2px;
+  line-height: 1.1;
   font-family: "Urbanist-Medium", sans-serif;
   font-size: clamp(1.5rem, 2.5vw, 1.875rem);
   color: hsl(0deg, 0%, 100%);

@@ -45,6 +45,7 @@ $breakpoints-width: (
     font-size: $font-size-800;
     color: $color-palette-primary-400;
     letter-spacing: 2px;
+    line-height: 1.1;
     span { position: relative;}
 
     @if $after {
