@@ -1,0 +1,166 @@
+@font-face {
+  font-family: "Urbanist-Black";
+  font-display: swap;
+  src: url("/assets/fonts/Urbanist-Black.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Urbanist-Bold";
+  font-display: swap;
+  src: url("/assets/fonts/Urbanist-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Urbanist-SemiBold";
+  font-display: swap;
+  src: url("/assets/fonts/Urbanist-SemiBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Urbanist-Medium";
+  font-display: swap;
+  src: url("/assets/fonts/Urbanist-Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Urbanist-Regular";
+  font-display: swap;
+  src: url("/assets/fonts/Urbanist-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Urbanist-Light-Italic";
+  font-display: swap;
+  src: url("/assets/fonts/Urbanist-LightItalic.ttf") format("truetype");
+}
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 1.5;
+  text-rendering: optimizeSpeed;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn-cta {
+  border: none;
+  outline: none;
+  font-family: "Urbanist-Regular", sans-serif;
+  font-size: 1.125rem;
+  color: hsl(203deg, 39%, 12%);
+  line-height: 1.5;
+  font-family: "Urbanist-Bold", sans-serif;
+  padding: 0.625rem 1.25rem;
+  border-radius: 0.3125rem;
+  background-color: hsl(67deg, 100%, 50%);
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.btn-cta:hover {
+  background-color: hsl(67deg, 100%, 45%);
+}
+.btn-cta img {
+  width: 30px;
+  height: 30px;
+}
+
+h1 {
+  font-family: "Urbanist-Black", sans-serif;
+  font-size: clamp(2.5rem, 10vw, 5.125rem);
+  color: hsl(203deg, 39%, 12%);
+}
+h1 span {
+  position: relative;
+}
+h1 span::after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 15px;
+  right: 0;
+  z-index: -1;
+  width: 6.25rem;
+  height: 1.25rem;
+  background: hsl(67deg, 100%, 50%);
+}
+
+h2 {
+  font-family: "Urbanist-Black", sans-serif;
+  font-size: clamp(2.5rem, 10vw, 5.125rem);
+  color: hsl(203deg, 39%, 12%);
+  font-family: "Urbanist-SemiBold", sans-serif;
+  font-size: clamp(2rem, 4vw, 3rem);
+}
+h2 span {
+  position: relative;
+}
+h2 span::after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 15px;
+  right: 0;
+  z-index: -1;
+  width: 6.25rem;
+  height: 1.25rem;
+  background: hsl(67deg, 100%, 50%);
+}
+h2 span::after {
+  bottom: 8px;
+  width: 3.125rem;
+  height: 0.625rem;
+}
+
+h3 {
+  font-family: "Urbanist-Black", sans-serif;
+  font-size: clamp(2.5rem, 10vw, 5.125rem);
+  color: hsl(203deg, 39%, 12%);
+  font-family: "Urbanist-Medium", sans-serif;
+  font-size: clamp(1.5rem, 2.5vw, 1.875rem);
+}
+h3 span {
+  position: relative;
+}
+h3 span::after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 15px;
+  right: 0;
+  z-index: -1;
+  width: 6.25rem;
+  height: 1.25rem;
+  background: hsl(67deg, 100%, 50%);
+}
+h3 span::after {
+  bottom: 5px;
+  width: 3.125rem;
+  height: 0.3125rem;
+}
+
+p {
+  font-family: "Urbanist-Regular", sans-serif;
+  font-size: 1.125rem;
+  color: hsl(203deg, 39%, 12%);
+  line-height: 1.5;
+}
+
+/*# sourceMappingURL=style.css.map */

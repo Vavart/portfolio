@@ -1,0 +1,165 @@
+// Responsive
+
+$breakpoints-width: (
+    xsmall: 576px,
+    small: 900px,
+    medium: 1200px,
+    large: 1680px,
+    xlarge: 1920px,
+);
+
+@mixin media-xsmall {
+    @media (max-width: map-get($breakpoints-width, xsmall)) {
+        @content;
+    }
+}
+
+@mixin media-small {
+    @media (max-width: map-get($breakpoints-width, small)) {
+        @content;
+    }
+}
+
+@mixin media-medium {
+    @media (max-width: map-get($breakpoints-width, medium)) {
+        @content;
+    }
+}
+
+@mixin media-large {
+    @media (max-width: map-get($breakpoints-width, large)) {
+        @content;
+    }
+}
+
+@mixin media-xlarge {
+    @media (max-width: map-get($breakpoints-width, xlarge)) {
+        @content;
+    }
+}
+
+// Titles (default = h1)
+
+@mixin title($type : "default", $after : false) {
+    font-family: $font-family-title-h1;
+    font-size: $font-size-800;
+    color: $color-palette-primary-400;
+    span { position: relative;}
+
+    @if $after {
+        span::after {
+            content: "";
+            display: block;
+            position: absolute;
+            bottom: 15px;
+            right: 0;
+            z-index:-1;
+            width: $space-700;
+            height: $space-200;
+            background: $color-palette-tertiary-400;
+        }
+    }
+    
+    @if $type == "h2" {
+        font-family: $font-family-title-h2;
+        font-size: $font-size-700;
+
+        @if $after {
+            span::after {
+                bottom: 8px;
+                width: $space-500;
+                height: $space-100;
+            }
+        }
+    }
+    
+    @else if $type == "h3" {
+        font-family: $font-family-title-h3;
+        font-size: $font-size-400;
+
+        @if $after {
+            span::after {
+                bottom: 5px;
+                width: $space-500;
+                height: $space-50;
+            }
+        }
+    }
+}
+
+// Flex center with $gap
+@mixin inline-flex-center($gap : 0px) {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: $gap;
+}
+
+// Text (default = p)
+
+@mixin text($type : "default") {
+    font-family: $font-family-text;
+    font-size: $font-size-200;
+    color: $color-palette-primary-400;
+    line-height: 1.5;
+
+    @if $type == "bold" {
+        font-family: $font-family-text-bold;
+    }
+
+    @else if $type == "italic" {
+        font-family: $font-family-text-italic;
+    }
+}
+
+// CTAs
+
+@mixin button($type : "default", $icon : false) {
+    border: none;
+    outline: none;
+    @include text($type : "bold");
+    padding: $space-100 $space-200;
+    border-radius: $space-50;
+    background-color: $color-palette-tertiary-400;
+    cursor: pointer;
+
+    @if $type == "ghost" {
+        border : 2px solid $color-palette-tertiary-400;
+        background: transparent;
+
+        // Override color from the text mixin
+        color: $color-palette-tertiary-400;
+    }
+
+    @else {
+        &:hover {background-color: $color-palette-tertiary-200;}
+        transition: background-color 0.2s ease-in-out;
+    }
+
+    @if $icon {
+        @include inline-flex-center($gap: 10px);
+        img {
+            width: 30px;
+            height: 30px;
+        }
+    }
+}
+
+
+.btn-cta {
+    @include button($type : "", $icon: true);
+}
+
+h1 {
+    @include title($after: true);
+}
+h2 {
+    @include title($type : "h2", $after : true);
+}
+h3 {
+    @include title($type : "h3", $after : true);
+}
+
+p {
+    @include text();
+}
