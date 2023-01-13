@@ -1,0 +1,23 @@
+p {
+    @include text();
+}
+
+h1 {
+    @include title($after: true);
+}
+h2 {
+    @include title($type : "h2", $after : true);
+}
+h3 {
+    @include title($type : "h3", $after : true);
+}
+
+
+// to delete i guess
+.btn-cta {
+    @include button($type : "", $icon: true);
+}
+
+body {
+    padding: 0 50px 200px;
+}

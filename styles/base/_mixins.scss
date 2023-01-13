@@ -40,10 +40,11 @@ $breakpoints-width: (
 
 // Titles (default = h1)
 
-@mixin title($type : "default", $after : false) {
+@mixin title($type : "default", $after : false, $color: "default") {
     font-family: $font-family-title-h1;
     font-size: $font-size-800;
     color: $color-palette-primary-400;
+    letter-spacing: 2px;
     span { position: relative;}
 
     @if $after {
@@ -85,23 +86,20 @@ $breakpoints-width: (
             }
         }
     }
-}
 
-// Flex center with $gap
-@mixin inline-flex-center($gap : 0px) {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    gap: $gap;
+    @if $color == "light" {
+        color: $color-palette-white;
+    }
 }
 
 // Text (default = p)
 
-@mixin text($type : "default") {
+@mixin text($type : "default", $size: "default", $color : "default") {
     font-family: $font-family-text;
     font-size: $font-size-200;
     color: $color-palette-primary-400;
     line-height: 1.5;
+    letter-spacing: 1%;
 
     @if $type == "bold" {
         font-family: $font-family-text-bold;
@@ -110,6 +108,61 @@ $breakpoints-width: (
     @else if $type == "italic" {
         font-family: $font-family-text-italic;
     }
+
+    @if $size == "small" {
+        font-size: $font-size-100;
+    }
+
+    @if $color == "light" {
+        color: $color-palette-white;
+    }
+}
+
+// Inline flex center with $gap
+
+@mixin inline-flex-center($gap : 0px) {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: $gap;
+}
+
+// Flex center with $gap and $col
+
+@mixin flex($justify: "center", $align : "center", $gap : 0px, $col : false) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: $gap;
+    
+    @if $col {
+        flex-direction: column;
+    }
+    
+    @if $justify == "between" {
+        justify-content: space-between;
+    }
+    
+    @else if $justify == "around" {
+        justify-content: space-around;
+    }
+
+    @else if $justify == "start" {
+        justify-content: flex-start;
+    }
+
+    @else if $justify == "end" {
+        justify-content: flex-end;
+    }
+
+    @if $align == "start" {
+        align-items: flex-start;
+    }
+
+    @else if $align == "end" {
+        align-items: flex-end;
+    }
+        
 }
 
 // CTAs
@@ -145,21 +198,20 @@ $breakpoints-width: (
     }
 }
 
+// Tags
 
-.btn-cta {
-    @include button($type : "", $icon: true);
+@mixin tag() {
+    display: inline-block;
+    background: $color-palette-primary-300;
+    padding: $space-50 $space-200;
+    border-radius: $button-pill-radius;
+    box-shadow: $box-shadow-primary;
+    
+    span {
+        @include text($color: "light");
+    }
 }
 
-h1 {
-    @include title($after: true);
-}
-h2 {
-    @include title($type : "h2", $after : true);
-}
-h3 {
-    @include title($type : "h3", $after : true);
-}
-
-p {
-    @include text();
+.tag {
+    @include tag();
 }

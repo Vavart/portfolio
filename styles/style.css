@@ -56,36 +56,35 @@ a {
   text-decoration: none;
 }
 
-.btn-cta {
-  border: none;
-  outline: none;
+.tag {
+  display: inline-block;
+  background: rgba(18, 32, 41, 0.8);
+  padding: 0.3125rem 1.25rem;
+  border-radius: 9999px;
+  box-shadow: -5px 5px 30px rgba(18, 32, 41, 0.15);
+}
+.tag span {
   font-family: "Urbanist-Regular", sans-serif;
   font-size: 1.125rem;
   color: hsl(203deg, 39%, 12%);
   line-height: 1.5;
-  font-family: "Urbanist-Bold", sans-serif;
-  padding: 0.625rem 1.25rem;
-  border-radius: 0.3125rem;
-  background-color: hsl(67deg, 100%, 50%);
-  cursor: pointer;
-  transition: background-color 0.2s ease-in-out;
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
+  letter-spacing: 1%;
+  color: hsl(0deg, 0%, 100%);
 }
-.btn-cta:hover {
-  background-color: hsl(67deg, 100%, 45%);
-}
-.btn-cta img {
-  width: 30px;
-  height: 30px;
+
+p {
+  font-family: "Urbanist-Regular", sans-serif;
+  font-size: 1.125rem;
+  color: hsl(203deg, 39%, 12%);
+  line-height: 1.5;
+  letter-spacing: 1%;
 }
 
 h1 {
   font-family: "Urbanist-Black", sans-serif;
   font-size: clamp(2.5rem, 10vw, 5.125rem);
   color: hsl(203deg, 39%, 12%);
+  letter-spacing: 2px;
 }
 h1 span {
   position: relative;
@@ -106,6 +105,7 @@ h2 {
   font-family: "Urbanist-Black", sans-serif;
   font-size: clamp(2.5rem, 10vw, 5.125rem);
   color: hsl(203deg, 39%, 12%);
+  letter-spacing: 2px;
   font-family: "Urbanist-SemiBold", sans-serif;
   font-size: clamp(2rem, 4vw, 3rem);
 }
@@ -133,6 +133,7 @@ h3 {
   font-family: "Urbanist-Black", sans-serif;
   font-size: clamp(2.5rem, 10vw, 5.125rem);
   color: hsl(203deg, 39%, 12%);
+  letter-spacing: 2px;
   font-family: "Urbanist-Medium", sans-serif;
   font-size: clamp(1.5rem, 2.5vw, 1.875rem);
 }
@@ -156,11 +157,168 @@ h3 span::after {
   height: 0.3125rem;
 }
 
-p {
+.btn-cta {
+  border: none;
+  outline: none;
   font-family: "Urbanist-Regular", sans-serif;
   font-size: 1.125rem;
   color: hsl(203deg, 39%, 12%);
   line-height: 1.5;
+  letter-spacing: 1%;
+  font-family: "Urbanist-Bold", sans-serif;
+  padding: 0.625rem 1.25rem;
+  border-radius: 0.3125rem;
+  background-color: hsl(67deg, 100%, 50%);
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.btn-cta:hover {
+  background-color: hsl(67deg, 100%, 45%);
+}
+.btn-cta img {
+  width: 30px;
+  height: 30px;
+}
+
+body {
+  padding: 0 50px 200px;
+}
+
+.testimony-card {
+  background: hsl(0deg, 0%, 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 0.625rem 1.25rem;
+  border-radius: 0.3125rem;
+  max-width: 28.125rem;
+}
+.testimony-card .left-pic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0px;
+  flex-direction: column;
+}
+.testimony-card .left-pic .cont-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 9999px;
+  border: 2px solid hsl(203deg, 39%, 12%);
+}
+.testimony-card .left-pic .cont-pic img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 9999px;
+}
+.testimony-card .right-text p {
+  font-family: "Urbanist-Regular", sans-serif;
+  font-size: 1.125rem;
+  color: hsl(203deg, 39%, 12%);
+  line-height: 1.5;
+  letter-spacing: 1%;
+  font-family: "Urbanist-Light-Italic", sans-serif;
+}
+.testimony-card .right-text span {
+  font-family: "Urbanist-Regular", sans-serif;
+  font-size: 1.125rem;
+  color: hsl(203deg, 39%, 12%);
+  line-height: 1.5;
+  letter-spacing: 1%;
+  font-size: 0.875rem;
+}
+
+.project-card {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0px;
+  height: 300px;
+  box-shadow: -5px 5px 30px rgba(18, 32, 41, 0.15);
+  transition: transform 0.2s ease-in-out;
+}
+.project-card:hover {
+  transform: scale(1.05);
+}
+.project-card .left-description {
+  height: 100%;
+  background: hsl(203deg, 39%, 12%);
+  padding: 1.25rem 1.875rem;
+  color: hsl(0deg, 0%, 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-top-left-radius: 0.3125rem;
+  border-bottom-left-radius: 0.3125rem;
+}
+.project-card .left-description .top-titles span {
+  font-family: "Urbanist-Regular", sans-serif;
+  font-size: 1.125rem;
+  color: hsl(203deg, 39%, 12%);
+  line-height: 1.5;
+  letter-spacing: 1%;
+  font-size: 0.875rem;
+  color: hsl(0deg, 0%, 100%);
+}
+.project-card .left-description .top-titles h3 {
+  font-family: "Urbanist-Black", sans-serif;
+  font-size: clamp(2.5rem, 10vw, 5.125rem);
+  color: hsl(203deg, 39%, 12%);
+  letter-spacing: 2px;
+  font-family: "Urbanist-Medium", sans-serif;
+  font-size: clamp(1.5rem, 2.5vw, 1.875rem);
+  color: hsl(0deg, 0%, 100%);
+}
+.project-card .left-description .top-titles h3 span {
+  position: relative;
+}
+.project-card .left-description .bottom-technos p {
+  font-family: "Urbanist-Regular", sans-serif;
+  font-size: 1.125rem;
+  color: hsl(203deg, 39%, 12%);
+  line-height: 1.5;
+  letter-spacing: 1%;
+  color: hsl(0deg, 0%, 100%);
+}
+.project-card .left-description .bottom-technos .cont-technos {
+  margin-top: 0.625rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  justify-content: flex-start;
+}
+.project-card .left-description .bottom-technos .cont-technos .techno {
+  width: 30px;
+  height: 30px;
+}
+.project-card .left-description .bottom-technos .cont-technos .techno img {
+  width: 100%;
+  height: 100%;
+}
+.project-card .right-illustration {
+  height: 100%;
+  overflow: hidden;
+}
+.project-card .right-illustration .cont-pic {
+  height: 100%;
+}
+.project-card .right-illustration .cont-pic img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-top-right-radius: 0.3125rem;
+  border-bottom-right-radius: 0.3125rem;
 }
 
 /*# sourceMappingURL=style.css.map */

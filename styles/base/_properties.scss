@@ -27,8 +27,14 @@ $font-size-900: clamp(4rem, 15vw, 8.25rem); // 64-132px
 $space-50: 0.3125rem; // 5px
 $space-100: 0.625rem; // 10px
 $space-200: 1.25rem; // 20px
+$space-300: 1.875rem; // 30px
 $space-400: 2.5rem; // 40px
 $space-500: 3.125rem; // 50px
 $space-600: 3.75rem; // 60px
 $space-700: 6.25rem; // 100px
-$space-800: 9.375rem; // 200px
+$space-800: 9.375rem; // 150px
+$space-900: 12.5rem; // 200px
+
+// -- Miscellaneous
+$button-pill-radius : 9999px;
+$box-shadow-primary : -5px 5px 30px rgba(18, 32, 41, 0.15);
