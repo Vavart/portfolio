@@ -21,8 +21,16 @@
 
         .cont-h3 {
             width: 100%;
+            position: relative;
 
             h3 { text-align: center; }
+
+            .cont-arrow {
+                position: absolute;
+                right: 0;
+                bottom: -$space-500;
+                transform: scaleX(-1) rotate(60deg);
+            }
         }
     }
 }
@@ -31,10 +39,12 @@
 
 .my-skills {
 
+    transform: translateY($space-600);
+
     background: $color-palette-primary-400;
     height: 100%;
     width: 100%;
-    clip-path: polygon(0 5%, 100% 0, 100% 95%, 0% 100%);
+    clip-path: polygon(0 6%, 100% 0, 100% 94%, 0% 100%);
     padding: $space-800 $space-600;
     @include flex($col: true, $gap: 75px);
 

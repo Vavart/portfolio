@@ -13,7 +13,18 @@ body {
 // Page
 
 .page {
-    @include flex($justify: "between", $gap: 200px,$col : true);
+    @include flex($justify: "between", $col : true);
+
+    &.blog-mode {
+        padding: $space-200 4*$space-600;
+    }
+}
+
+.g-50 {
+    gap: 50px;
+}
+.g-200 {
+    gap: 200px;
 }
 
 // Navigation
@@ -87,6 +98,10 @@ nav {
     min-height: $space-900;
     @include flex();
 
+    &.no-margin {
+        margin: 0;
+    }
+
     .inner {
         @include flex($gap: 15px, $col : true);
 
@@ -96,14 +111,15 @@ nav {
             width: 40px;
             height: 40px;
     
+            &.flip {
+                transform: rotate(180deg);
+            }
+
             img {
                 width: 100%;
                 height: 100%;
             }
 
-            &.flip {
-                transform: rotate(180deg);
-            }
         }
     }
 }

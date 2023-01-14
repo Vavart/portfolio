@@ -1,0 +1,78 @@
+// Title
+
+.cont-title {
+    margin-top: $space-400;
+
+    p {
+        margin-top: $space-100;
+        text-align: center  ;
+    }
+}
+
+// Project preview
+
+.project-preview {
+    @include flex($col : true, $gap: 80px);
+    
+    .cont-preview {
+        box-shadow: $box-shadow-primary;
+        width: 100%;
+        height: 100%;
+        
+        img {
+            border-radius: $space-100;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
+    h3 { text-align: center; }
+}
+
+// Project description
+
+.project-description {
+    
+    margin-top: $space-500;
+    @include flex($justify: "between", $align: "start");
+
+    .role-tools {
+        flex-basis: 40%;
+        @include flex($justify: "start", $align: "start", $col: true, $gap: 50px);
+
+        .role {
+            p {
+                margin-top: $space-200;
+            }
+        }
+        
+        .tools {
+            .cont-technos {
+                margin-top: $space-200;
+                @include flex($justify: "start", $gap: 10px);
+                flex-wrap: wrap;
+
+                .techno {
+                    height: 40px;
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+
+            }
+        }
+
+    }
+
+    .progress {
+        flex-basis: 40%;
+
+        p {
+            margin-top: $space-200;
+        }
+    }
+
+}
