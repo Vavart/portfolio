@@ -818,11 +818,7 @@ p {
   align-items: center;
   gap: 5px;
   justify-content: flex-start;
-}
-@media (max-width: 596px) {
-  .project-card .left-description .bottom-technos .cont-technos {
-    flex-wrap: wrap;
-  }
+  flex-wrap: wrap;
 }
 .project-card .left-description .bottom-technos .cont-technos .techno {
   width: 30px;

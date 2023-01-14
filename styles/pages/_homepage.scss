@@ -212,8 +212,8 @@
                 margin-top: $space-100;
                 @include flex($justify: "start", $gap: 5px);
                 
+                flex-wrap: wrap;
                 @include media-small {
-                    flex-wrap: wrap;
                 }
 
                .techno {
