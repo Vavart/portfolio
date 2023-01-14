@@ -1,0 +1,132 @@
+// About me
+
+.about-me {
+    
+    margin-top: $space-500;
+    padding: $space-100 $space-600;
+    @include flex($justify: "around", $gap: 75px);
+
+    .left-tags {
+        flex-basis: 25%;
+        // ...
+    }
+
+    .right-description {
+        flex-basis: 55%;
+        @include flex($align: "start", $gap: 30px, $col : true);
+
+        .boldy {
+            font-family: $font-family-text-bold;
+        }
+
+        .cont-h3 {
+            width: 100%;
+
+            h3 { text-align: center; }
+        }
+    }
+}
+
+// My skills
+
+.my-skills {
+
+    background: $color-palette-primary-400;
+    height: 100%;
+    width: 100%;
+    clip-path: polygon(0 5%, 100% 0, 100% 95%, 0% 100%);
+    padding: $space-800 $space-600;
+    @include flex($col: true, $gap: 75px);
+
+    .cont-title {
+
+        h2 {
+            @include title($type : "h2", $color : "light");
+            text-align: center;
+        }
+        
+        hr {
+            width: 10%;
+            height: 3px;
+            margin: $space-100 auto;
+            border: none;
+            border-radius: $button-pill-radius;
+            background: $color-palette-tertiary-400;
+        }
+    }
+
+    .skills {
+        width: 100%;
+        @include flex($justify: "around", $gap: 20px);
+
+        .languages-tools {
+            max-width: $space-900 * 2.5;
+            @include flex($align: "start", $col: true, $gap: 70px);
+
+            .languages h3, .tools h3 {
+                @include title($type: "h3", $color: "light");
+
+                span {
+                    color: $color-palette-tertiary-400;
+                }
+            }
+
+            .cont-languages-icons {
+                margin-top: $space-200;
+                @include flex($justify: "start", $gap: 15px);
+                flex-wrap: wrap;
+
+                .icon {
+                    height: 40px;
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+            }
+        }
+    }
+
+    .soft-skills, .hard-skills {
+        h3 {
+            @include title($type : "h3", $color: "light");
+            span {
+                color: $color-palette-tertiary-400;
+            }
+        }
+
+        ul {
+            margin-top: $space-200;
+
+            li {
+                margin-top: $space-50;
+                font-family: $font-family-text;
+                font-size: $font-family-text;
+                color: $color-palette-white;
+
+                &::before {
+                    content: "#";
+                    margin-right: $space-50;
+                    color: $color-palette-secondary-400;
+
+                }
+            }
+        }
+    }
+
+    .contact {
+        h3 {
+            @include title($type: "h3", $color: "light");
+            text-align: center;
+        }
+
+        .cont-btns-contact {
+            margin-top: $space-200;
+
+            a:first-child {
+                margin-right: $space-200;
+            }
+        }
+    }
+}
