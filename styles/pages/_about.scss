@@ -6,14 +6,26 @@
     padding: $space-100 $space-600;
     @include flex($justify: "around", $gap: 75px);
 
+    @include media-small {
+        padding: $space-100 $space-400;
+    }
+
     .left-tags {
-        flex-basis: 25%;
+        flex-basis: 40%;
         // ...
+
+        @include media-large {
+           display: none;
+        }
     }
 
     .right-description {
         flex-basis: 55%;
         @include flex($align: "start", $gap: 30px, $col : true);
+
+        @include media-large {
+            flex-basis: 100%;
+        }
 
         .boldy {
             font-family: $font-family-text-bold;
@@ -39,7 +51,7 @@
 
 .my-skills {
 
-    transform: translateY($space-600);
+    transform: translateY($space-600); // to match with the next-page component
 
     background: $color-palette-primary-400;
     height: 100%;
@@ -47,6 +59,10 @@
     clip-path: polygon(0 6%, 100% 0, 100% 94%, 0% 100%);
     padding: $space-800 $space-600;
     @include flex($col: true, $gap: 75px);
+
+    @include media-small {
+        padding: $space-800 $space-400;
+    }
 
     .cont-title {
 
@@ -69,9 +85,21 @@
         width: 100%;
         @include flex($justify: "around", $gap: 20px);
 
+        @include media-large {
+            @include flex($justify: "center", $gap: 80px, $col : true);
+        }
+
         .languages-tools {
             max-width: $space-900 * 2.5;
             @include flex($align: "start", $col: true, $gap: 70px);
+
+            @include media-large {
+                max-width: none;
+            }
+
+            @include media-small {
+                max-width: 300px;
+            }
 
             .languages h3, .tools h3 {
                 @include title($type: "h3", $color: "light");
@@ -96,34 +124,53 @@
                 }
             }
         }
-    }
 
-    .soft-skills, .hard-skills {
-        h3 {
-            @include title($type : "h3", $color: "light");
-            span {
-                color: $color-palette-tertiary-400;
+        .soft-hard-skills {
+            flex-basis: 50%;
+            @include flex($justify: "around", $gap: 20px);
+
+            @include media-large {
+                width: 100%;
+            }
+
+            @include media-small {
+                @include flex($justify: "start", $gap: 50px, $col: true);
             }
         }
+    
+        .soft-skills, .hard-skills {
+            h3 {
+                @include title($type : "h3", $color: "light");
 
-        ul {
-            margin-top: $space-200;
+                @include media-small {
+                    text-align: center;
+                }
 
-            li {
-                margin-top: $space-50;
-                font-family: $font-family-text;
-                font-size: $font-family-text;
-                color: $color-palette-white;
-
-                &::before {
-                    content: "#";
-                    margin-right: $space-50;
-                    color: $color-palette-secondary-400;
-
+                span {
+                    color: $color-palette-tertiary-400;
+                }
+            }
+    
+            ul {
+                margin-top: $space-200;
+    
+                li {
+                    margin-top: $space-50;
+                    font-family: $font-family-text;
+                    font-size: $font-family-text;
+                    color: $color-palette-white;
+    
+                    &::before {
+                        content: "#";
+                        margin-right: $space-50;
+                        color: $color-palette-secondary-400;
+    
+                    }
                 }
             }
         }
     }
+
 
     .contact {
         h3 {
@@ -134,8 +181,16 @@
         .cont-btns-contact {
             margin-top: $space-200;
 
+            @include media-medium {
+                @include flex($gap : 20px, $col : true);
+            }
+
             a:first-child {
                 margin-right: $space-200;
+
+                @include media-medium {
+                    margin-right: 0;
+                }
             }
         }
     }

@@ -1,11 +1,10 @@
 // Responsive
 
 $breakpoints-width: (
-    xsmall: 576px,
-    small: 900px,
-    medium: 1200px,
-    large: 1680px,
-    xlarge: 1920px,
+    xsmall: 450px,
+    small: 596px,
+    medium: 744px,
+    large: 1200px
 );
 
 @mixin media-xsmall {
@@ -28,12 +27,6 @@ $breakpoints-width: (
 
 @mixin media-large {
     @media (max-width: map-get($breakpoints-width, large)) {
-        @content;
-    }
-}
-
-@mixin media-xlarge {
-    @media (max-width: map-get($breakpoints-width, xlarge)) {
         @content;
     }
 }

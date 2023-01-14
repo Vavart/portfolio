@@ -1,6 +1,6 @@
 // Title
 
-.cont-title {
+.cont-project-title {
     margin-top: $space-400;
 
     p {
@@ -36,6 +36,10 @@
     
     margin-top: $space-500;
     @include flex($justify: "between", $align: "start");
+
+    @include media-large {
+        @include flex($justify: "center", $align: "start", $col: true, $gap: 50px);
+    }
 
     .role-tools {
         flex-basis: 40%;

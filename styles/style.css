@@ -91,15 +91,20 @@ body {
   justify-content: space-between;
 }
 .page.blog-mode {
-  padding: 1.25rem 15rem;
+  padding: 1.25rem clamp(1.875rem, 15vw, 15rem);
 }
 
-.g-50 {
-  gap: 50px;
+.g-small {
+  gap: 3.125rem;
 }
 
-.g-200 {
-  gap: 200px;
+.g-large {
+  gap: 12.5rem;
+}
+@media (max-width: 1200px) {
+  .g-large {
+    gap: 3.75rem;
+  }
 }
 
 nav {
@@ -112,6 +117,11 @@ nav {
   background: hsl(203deg, 39%, 12%);
   padding: 0.625rem 3.125rem;
 }
+@media (max-width: 744px) {
+  nav {
+    padding: 0.625rem 1.25rem;
+  }
+}
 nav .nav-brand {
   width: 50px;
   height: 50px;
@@ -121,12 +131,26 @@ nav .nav-brand img {
   height: 100%;
 }
 nav .nav-links a:first-child {
-  margin-right: 30px;
+  margin-right: 1.875rem;
+}
+@media (max-width: 450px) {
+  nav .nav-links a:first-child {
+    margin-right: 0;
+  }
 }
 nav .nav-links a {
   font-family: "Urbanist-Bold", sans-serif;
   font-size: 1.125rem;
   color: hsl(0deg, 0%, 100%);
+}
+@media (max-width: 450px) {
+  nav .nav-links a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+    flex-direction: column;
+  }
 }
 nav .nav-links a:hover {
   color: hsl(67deg, 100%, 50%);
@@ -155,6 +179,11 @@ nav .lang span {
   font-family: "Urbanist-Regular", sans-serif;
   color: hsl(0deg, 0%, 100%);
 }
+@media (max-width: 744px) {
+  nav .lang span {
+    display: none;
+  }
+}
 
 .next-page {
   margin-top: 12.5rem;
@@ -166,6 +195,11 @@ nav .lang span {
   justify-content: center;
   align-items: center;
   gap: 0px;
+}
+@media (max-width: 744px) {
+  .next-page {
+    padding: 6.25rem 6.25rem 3.75rem;
+  }
 }
 .next-page.no-margin {
   margin: 0;
@@ -197,24 +231,48 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 0px;
+  gap: 10px;
   justify-content: space-between;
   background: hsl(203deg, 39%, 12%);
   padding: 1.25rem 3.125rem;
+}
+@media (max-width: 744px) {
+  footer {
+    padding: 1.25rem 1.875rem;
+  }
+}
+@media (max-width: 596px) {
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
 }
 footer .footer-brand {
   width: 40px;
   height: 40px;
 }
+@media (max-width: 596px) {
+  footer .footer-brand {
+    order: 1;
+    margin-right: 6.25rem;
+  }
+}
 footer .footer-brand img {
   width: 100%;
   height: 100%;
 }
-footer .footer-text {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 5px;
+@media (max-width: 744px) {
+  footer .footer-text {
+    margin: 0 5px;
+  }
+}
+@media (max-width: 596px) {
+  footer .footer-text {
+    order: 3;
+  }
 }
 footer .footer-text p {
   font-family: "Urbanist-Regular", sans-serif;
@@ -223,16 +281,30 @@ footer .footer-text p {
   line-height: 1.5;
   letter-spacing: 0.03125rem;
   color: hsl(0deg, 0%, 100%);
+  text-align: center;
 }
-footer .footer-text img {
-  width: 20px;
-  height: 20px;
+footer .footer-text a {
+  display: block;
+  font-family: "Urbanist-Regular", sans-serif;
+  font-size: 1.125rem;
+  color: hsl(203deg, 39%, 12%);
+  line-height: 1.5;
+  letter-spacing: 0.03125rem;
+  font-family: "Urbanist-Bold", sans-serif;
+  color: hsl(0deg, 0%, 100%);
+  text-align: center;
+  text-decoration: underline;
 }
 footer .cont-socials {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 20px;
+}
+@media (max-width: 596px) {
+  footer .cont-socials {
+    order: 2;
+  }
 }
 footer .cont-socials .social {
   width: 30px;
@@ -245,7 +317,7 @@ footer .cont-socials .social img {
 
 h1 {
   font-family: "Urbanist-Black", sans-serif;
-  font-size: clamp(2.5rem, 10vw, 5.125rem);
+  font-size: clamp(2.5rem, 12vw, 4.25rem);
   color: hsl(203deg, 39%, 12%);
   letter-spacing: 2px;
   line-height: 1.1;
@@ -256,7 +328,7 @@ h1 span {
 
 h2 {
   font-family: "Urbanist-Black", sans-serif;
-  font-size: clamp(2.5rem, 10vw, 5.125rem);
+  font-size: clamp(2.5rem, 12vw, 4.25rem);
   color: hsl(203deg, 39%, 12%);
   letter-spacing: 2px;
   line-height: 1.1;
@@ -269,7 +341,7 @@ h2 span {
 
 h3 {
   font-family: "Urbanist-Black", sans-serif;
-  font-size: clamp(2.5rem, 10vw, 5.125rem);
+  font-size: clamp(2.5rem, 12vw, 4.25rem);
   color: hsl(203deg, 39%, 12%);
   letter-spacing: 2px;
   line-height: 1.1;
@@ -282,7 +354,7 @@ h3 span {
 
 h1.after {
   font-family: "Urbanist-Black", sans-serif;
-  font-size: clamp(2.5rem, 10vw, 5.125rem);
+  font-size: clamp(2.5rem, 12vw, 4.25rem);
   color: hsl(203deg, 39%, 12%);
   letter-spacing: 2px;
   line-height: 1.1;
@@ -304,7 +376,7 @@ h1.after span::after {
 
 h2.after {
   font-family: "Urbanist-Black", sans-serif;
-  font-size: clamp(2.5rem, 10vw, 5.125rem);
+  font-size: clamp(2.5rem, 12vw, 4.25rem);
   color: hsl(203deg, 39%, 12%);
   letter-spacing: 2px;
   line-height: 1.1;
@@ -333,7 +405,7 @@ h2.after span::after {
 
 h3.after {
   font-family: "Urbanist-Black", sans-serif;
-  font-size: clamp(2.5rem, 10vw, 5.125rem);
+  font-size: clamp(2.5rem, 12vw, 4.25rem);
   color: hsl(203deg, 39%, 12%);
   letter-spacing: 2px;
   line-height: 1.1;
@@ -468,6 +540,17 @@ p {
   gap: 75px;
   justify-content: space-around;
 }
+@media (max-width: 1200px) {
+  #hero {
+    margin-top: 3.125rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 75px;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+}
 #hero .left-presentation {
   display: flex;
   justify-content: center;
@@ -479,7 +562,6 @@ p {
   flex-basis: 40%;
 }
 #hero .right-photo {
-  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -487,10 +569,20 @@ p {
   flex-direction: column;
   flex-basis: 40%;
 }
-#hero .right-photo .arrow-its-me {
+#hero .right-photo .cont-photo {
+  position: relative;
+  width: clamp(18.75rem, 30vw, 25rem);
+  height: clamp(18.75rem, 30vw, 25rem);
+}
+#hero .right-photo .cont-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#hero .right-photo .cont-photo .arrow-its-me {
   position: absolute;
-  bottom: 0;
-  left: 0;
+  bottom: -6.25rem;
+  left: -6.25rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -498,23 +590,19 @@ p {
   flex-direction: column;
   transform: rotate(-10deg);
 }
-#hero .right-photo .arrow-its-me span {
+@media (max-width: 596px) {
+  #hero .right-photo .cont-photo .arrow-its-me {
+    display: none;
+  }
+}
+#hero .right-photo .cont-photo .arrow-its-me span {
   font-family: "Urbanist-Bold", sans-serif;
   font-size: 1.125rem;
   color: hsl(203deg, 39%, 12%);
   transform: translateX(-1.25rem) rotate(-16deg);
 }
-#hero .right-photo .cont-photo {
-  width: 25rem;
-  height: 25rem;
-}
-#hero .right-photo .cont-photo img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
 #hero .cont-socials {
-  margin-top: 0.625rem;
+  margin-top: 0.3125rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -535,9 +623,19 @@ p {
   padding: 6.25rem 0;
   clip-path: polygon(0 5%, 100% 0, 100% 95%, 0% 100%);
 }
+@media (max-width: 1200px) {
+  #testimonies {
+    padding: 3.75rem 0;
+  }
+}
+@media (max-width: 596px) {
+  #testimonies {
+    padding: 6.25rem 0;
+  }
+}
 #testimonies h2 {
   font-family: "Urbanist-Black", sans-serif;
-  font-size: clamp(2.5rem, 10vw, 5.125rem);
+  font-size: clamp(2.5rem, 12vw, 4.25rem);
   color: hsl(203deg, 39%, 12%);
   letter-spacing: 2px;
   line-height: 1.1;
@@ -563,6 +661,7 @@ p {
   justify-content: center;
   align-items: center;
   gap: 20px;
+  flex-wrap: wrap;
 }
 
 .testimony-card {
@@ -574,6 +673,15 @@ p {
   padding: 0.625rem 1.25rem;
   border-radius: 0.3125rem;
   max-width: 28.125rem;
+}
+@media (max-width: 596px) {
+  .testimony-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+  }
 }
 .testimony-card .left-pic {
   display: flex;
@@ -622,6 +730,15 @@ p {
   align-items: center;
   gap: 40px;
   justify-content: flex-start;
+  flex-wrap: wrap;
+}
+@media (max-width: 1200px) {
+  #projects .cont-projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+  }
 }
 
 .project-card {
@@ -629,9 +746,16 @@ p {
   justify-content: center;
   align-items: center;
   gap: 0px;
+  min-width: 300px;
+  max-width: 450px;
   height: 300px;
   box-shadow: -5px 5px 30px rgba(18, 32, 41, 0.15);
   transition: transform 0.2s ease-in-out;
+}
+@media (max-width: 596px) {
+  .project-card {
+    flex-direction: column;
+  }
 }
 .project-card:hover {
   transform: scale(1.05);
@@ -651,6 +775,12 @@ p {
   border-top-left-radius: 0.3125rem;
   border-bottom-left-radius: 0.3125rem;
 }
+@media (max-width: 596px) {
+  .project-card .left-description {
+    width: 100%;
+    padding: 0.625rem 1.25rem;
+  }
+}
 .project-card .left-description .top-titles span {
   font-family: "Urbanist-Regular", sans-serif;
   font-size: 1.125rem;
@@ -662,7 +792,7 @@ p {
 }
 .project-card .left-description .top-titles h3 {
   font-family: "Urbanist-Black", sans-serif;
-  font-size: clamp(2.5rem, 10vw, 5.125rem);
+  font-size: clamp(2.5rem, 12vw, 4.25rem);
   color: hsl(203deg, 39%, 12%);
   letter-spacing: 2px;
   line-height: 1.1;
@@ -689,6 +819,11 @@ p {
   gap: 5px;
   justify-content: flex-start;
 }
+@media (max-width: 596px) {
+  .project-card .left-description .bottom-technos .cont-technos {
+    flex-wrap: wrap;
+  }
+}
 .project-card .left-description .bottom-technos .cont-technos .techno {
   width: 30px;
   height: 30px;
@@ -700,6 +835,11 @@ p {
 .project-card .right-illustration {
   height: 100%;
   overflow: hidden;
+}
+@media (max-width: 596px) {
+  .project-card .right-illustration {
+    width: 100%;
+  }
 }
 .project-card .right-illustration .cont-pic {
   height: 100%;
@@ -721,8 +861,18 @@ p {
   gap: 75px;
   justify-content: space-around;
 }
+@media (max-width: 596px) {
+  .about-me {
+    padding: 0.625rem 2.5rem;
+  }
+}
 .about-me .left-tags {
-  flex-basis: 25%;
+  flex-basis: 40%;
+}
+@media (max-width: 1200px) {
+  .about-me .left-tags {
+    display: none;
+  }
 }
 .about-me .right-description {
   flex-basis: 55%;
@@ -732,6 +882,11 @@ p {
   gap: 30px;
   flex-direction: column;
   align-items: flex-start;
+}
+@media (max-width: 1200px) {
+  .about-me .right-description {
+    flex-basis: 100%;
+  }
 }
 .about-me .right-description .boldy {
   font-family: "Urbanist-Bold", sans-serif;
@@ -763,9 +918,14 @@ p {
   gap: 75px;
   flex-direction: column;
 }
+@media (max-width: 596px) {
+  .my-skills {
+    padding: 9.375rem 2.5rem;
+  }
+}
 .my-skills .cont-title h2 {
   font-family: "Urbanist-Black", sans-serif;
-  font-size: clamp(2.5rem, 10vw, 5.125rem);
+  font-size: clamp(2.5rem, 12vw, 4.25rem);
   color: hsl(203deg, 39%, 12%);
   letter-spacing: 2px;
   line-height: 1.1;
@@ -793,6 +953,15 @@ p {
   gap: 20px;
   justify-content: space-around;
 }
+@media (max-width: 1200px) {
+  .my-skills .skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    flex-direction: column;
+  }
+}
 .my-skills .skills .languages-tools {
   max-width: 31.25rem;
   display: flex;
@@ -802,9 +971,19 @@ p {
   flex-direction: column;
   align-items: flex-start;
 }
+@media (max-width: 1200px) {
+  .my-skills .skills .languages-tools {
+    max-width: none;
+  }
+}
+@media (max-width: 596px) {
+  .my-skills .skills .languages-tools {
+    max-width: 300px;
+  }
+}
 .my-skills .skills .languages-tools .languages h3, .my-skills .skills .languages-tools .tools h3 {
   font-family: "Urbanist-Black", sans-serif;
-  font-size: clamp(2.5rem, 10vw, 5.125rem);
+  font-size: clamp(2.5rem, 12vw, 4.25rem);
   color: hsl(203deg, 39%, 12%);
   letter-spacing: 2px;
   line-height: 1.1;
@@ -834,9 +1013,32 @@ p {
   width: 100%;
   height: 100%;
 }
-.my-skills .soft-skills h3, .my-skills .hard-skills h3 {
+.my-skills .skills .soft-hard-skills {
+  flex-basis: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  justify-content: space-around;
+}
+@media (max-width: 1200px) {
+  .my-skills .skills .soft-hard-skills {
+    width: 100%;
+  }
+}
+@media (max-width: 596px) {
+  .my-skills .skills .soft-hard-skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+}
+.my-skills .skills .soft-skills h3, .my-skills .skills .hard-skills h3 {
   font-family: "Urbanist-Black", sans-serif;
-  font-size: clamp(2.5rem, 10vw, 5.125rem);
+  font-size: clamp(2.5rem, 12vw, 4.25rem);
   color: hsl(203deg, 39%, 12%);
   letter-spacing: 2px;
   line-height: 1.1;
@@ -844,29 +1046,34 @@ p {
   font-size: clamp(1.125rem, 2vw, 1.375rem);
   color: hsl(0deg, 0%, 100%);
 }
-.my-skills .soft-skills h3 span, .my-skills .hard-skills h3 span {
+.my-skills .skills .soft-skills h3 span, .my-skills .skills .hard-skills h3 span {
   position: relative;
 }
-.my-skills .soft-skills h3 span, .my-skills .hard-skills h3 span {
+@media (max-width: 596px) {
+  .my-skills .skills .soft-skills h3, .my-skills .skills .hard-skills h3 {
+    text-align: center;
+  }
+}
+.my-skills .skills .soft-skills h3 span, .my-skills .skills .hard-skills h3 span {
   color: hsl(67deg, 100%, 50%);
 }
-.my-skills .soft-skills ul, .my-skills .hard-skills ul {
+.my-skills .skills .soft-skills ul, .my-skills .skills .hard-skills ul {
   margin-top: 1.25rem;
 }
-.my-skills .soft-skills ul li, .my-skills .hard-skills ul li {
+.my-skills .skills .soft-skills ul li, .my-skills .skills .hard-skills ul li {
   margin-top: 0.3125rem;
   font-family: "Urbanist-Regular", sans-serif;
   font-size: "Urbanist-Regular", sans-serif;
   color: hsl(0deg, 0%, 100%);
 }
-.my-skills .soft-skills ul li::before, .my-skills .hard-skills ul li::before {
+.my-skills .skills .soft-skills ul li::before, .my-skills .skills .hard-skills ul li::before {
   content: "#";
   margin-right: 0.3125rem;
   color: hsl(203deg, 100%, 72%);
 }
 .my-skills .contact h3 {
   font-family: "Urbanist-Black", sans-serif;
-  font-size: clamp(2.5rem, 10vw, 5.125rem);
+  font-size: clamp(2.5rem, 12vw, 4.25rem);
   color: hsl(203deg, 39%, 12%);
   letter-spacing: 2px;
   line-height: 1.1;
@@ -881,14 +1088,28 @@ p {
 .my-skills .contact .cont-btns-contact {
   margin-top: 1.25rem;
 }
+@media (max-width: 744px) {
+  .my-skills .contact .cont-btns-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+  }
+}
 .my-skills .contact .cont-btns-contact a:first-child {
   margin-right: 1.25rem;
 }
+@media (max-width: 744px) {
+  .my-skills .contact .cont-btns-contact a:first-child {
+    margin-right: 0;
+  }
+}
 
-.cont-title {
+.cont-project-title {
   margin-top: 2.5rem;
 }
-.cont-title p {
+.cont-project-title p {
   margin-top: 0.625rem;
   text-align: center;
 }
@@ -923,6 +1144,16 @@ p {
   gap: 0px;
   justify-content: space-between;
   align-items: flex-start;
+}
+@media (max-width: 1200px) {
+  .project-description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
 }
 .project-description .role-tools {
   flex-basis: 40%;

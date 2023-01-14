@@ -16,15 +16,19 @@ body {
     @include flex($justify: "between", $col : true);
 
     &.blog-mode {
-        padding: $space-200 4*$space-600;
+        padding: $space-200 clamp($space-300, 15vw, 4*$space-600);
     }
 }
 
-.g-50 {
-    gap: 50px;
+.g-small {
+    gap: $space-500;
 }
-.g-200 {
-    gap: 200px;
+.g-large {
+    gap: $space-900;
+
+    @include media-large {
+        gap: $space-600;
+    }
 }
 
 // Navigation
@@ -34,6 +38,10 @@ nav {
     @include flex($justify: "between");
     background: $color-palette-primary-400;
     padding: $space-100 $space-500;
+    
+    @include media-medium {
+        padding: $space-100 $space-200;
+    }
 
     .nav-brand {
         width: 50px;
@@ -45,13 +53,22 @@ nav {
     }
 
     .nav-links a:first-child {
-        margin-right: 30px
+        margin-right: $space-300;
+
+        @include media-xsmall {
+            margin-right: 0;
+        }
+
     }
 
     .nav-links a {
         font-family: $font-family-text-bold;
         font-size: $font-size-200;
         color: $color-palette-white;
+
+        @include media-xsmall {
+            @include flex($col: true);
+        }
 
         &:hover {
             color: $color-palette-tertiary-400;
@@ -84,6 +101,10 @@ nav {
         span {
             font-family: $font-family-text;
             color: $color-palette-white;
+            
+            @include media-medium {
+                display: none;
+            }
         }
     }
 }
@@ -97,6 +118,10 @@ nav {
     background: $color-palette-secondary-400;
     min-height: $space-900;
     @include flex();
+
+    @include media-medium {
+        padding: $space-700 $space-700 $space-600;
+    }
 
     &.no-margin {
         margin: 0;
@@ -129,13 +154,28 @@ nav {
 footer {
 
     width: 100%;
-    @include flex($justify: "between");
+    @include flex($justify: "between", $gap: 10px);
     background: $color-palette-primary-400;
     padding: $space-200 $space-500;
+
+    @include media-medium {
+        padding: $space-200 $space-300;
+    }
+
+    @include media-small {
+        @include flex($gap: 10px);
+        flex-wrap: wrap;
+    }
 
     .footer-brand {
         width: 40px;
         height: 40px;
+
+        @include media-small {
+            order: 1;
+            margin-right: $space-700;
+        }
+
         img {
             width: 100%;
             height: 100%;
@@ -143,16 +183,30 @@ footer {
     }
 
     .footer-text {
-        @include flex($gap: 5px);
-        p { @include text($color: "light"); }
-        img {
-            width: 20px;
-            height: 20px;
+        @include media-medium {
+            margin: 0 5px;
         }
+
+        @include media-small {
+            order: 3;
+        }
+
+        p { @include text($color: "light"); text-align: center;}
+        a { 
+            display: block;
+            @include text($type: "bold", $color: "light"); 
+            text-align: center;
+            text-decoration: underline;
+        }
+
     }
 
     .cont-socials {
         @include flex($gap: 20px);
+
+        @include media-small {
+            order: 2;
+        }
 
         .social {
             width: 30px;
