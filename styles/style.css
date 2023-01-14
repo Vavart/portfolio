@@ -854,8 +854,15 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 75px;
-  justify-content: space-around;
+  gap: 30px;
+}
+@media (max-width: 1200px) {
+  .about-me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 75px;
+  }
 }
 @media (max-width: 596px) {
   .about-me {
@@ -864,6 +871,57 @@ p {
 }
 .about-me .left-tags {
   flex-basis: 40%;
+  position: relative;
+}
+.about-me .left-tags .tag {
+  position: absolute;
+  cursor: pointer;
+}
+.about-me .left-tags .tag.active {
+  background: hsl(67deg, 100%, 50%);
+}
+.about-me .left-tags .tag.active span {
+  color: hsl(203deg, 39%, 12%);
+}
+.about-me .left-tags .tag:nth-child(1) {
+  top: -110px;
+  left: -30px;
+}
+.about-me .left-tags .tag:nth-child(2) {
+  top: -135px;
+  left: 95px;
+}
+.about-me .left-tags .tag:nth-child(3) {
+  top: -109px;
+  left: 240px;
+}
+.about-me .left-tags .tag:nth-child(4) {
+  top: -7px;
+  left: -50px;
+}
+.about-me .left-tags .tag:nth-child(5) {
+  top: -29px;
+  left: 115px;
+}
+.about-me .left-tags .tag:nth-child(6) {
+  top: -12px;
+  left: 287px;
+}
+.about-me .left-tags .tag:nth-child(7) {
+  top: 82px;
+  left: -18px;
+}
+.about-me .left-tags .tag:nth-child(8) {
+  top: 64px;
+  left: 151px;
+}
+.about-me .left-tags .tag:nth-child(9) {
+  top: 126px;
+  left: 289px;
+}
+.about-me .left-tags .tag:nth-child(10) {
+  top: 154px;
+  left: 97px;
 }
 @media (max-width: 1200px) {
   .about-me .left-tags {

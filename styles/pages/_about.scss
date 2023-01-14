@@ -4,7 +4,11 @@
     
     margin-top: $space-500;
     padding: $space-100 $space-600;
-    @include flex($justify: "around", $gap: 75px);
+    @include flex($gap : 30px);
+
+    @include media-large {
+        @include flex($gap: 75px);
+    }
 
     @include media-small {
         padding: $space-100 $space-400;
@@ -12,7 +16,61 @@
 
     .left-tags {
         flex-basis: 40%;
-        // ...
+        position: relative;
+
+        .tag {
+            position: absolute;
+            cursor: pointer;
+
+            &.active {
+                background: $color-palette-tertiary-400;
+
+                span {
+                    color: $color-palette-primary-400;
+                }
+            }
+        }
+
+        .tag:nth-child(1) {
+            top: -110px;
+            left: -30px;
+        }
+        .tag:nth-child(2) {
+            top: -135px;
+            left: 95px;
+        }
+        .tag:nth-child(3) {
+            top: -109px;
+            left: 240px;
+        }
+        .tag:nth-child(4) {
+            top: -7px;
+            left: -50px;
+        }
+        .tag:nth-child(5) {
+            top: -29px;
+            left: 115px;
+        }
+        .tag:nth-child(6) {
+            top: -12px;
+            left: 287px;
+        }
+        .tag:nth-child(7) {
+            top: 82px;
+            left: -18px;
+        }
+        .tag:nth-child(8) {
+            top: 64px;
+            left: 151px;
+        }
+        .tag:nth-child(9) {
+            top: 126px;
+            left: 289px;
+        }
+        .tag:nth-child(10) {
+            top: 154px;
+            left: 97px;
+        }
 
         @include media-large {
            display: none;
