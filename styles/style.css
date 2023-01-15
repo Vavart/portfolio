@@ -56,22 +56,38 @@ a {
   text-decoration: none;
 }
 
-.tag {
-  display: inline-block;
-  background: rgba(18, 32, 41, 0.8);
-  padding: 0.3125rem 1.25rem;
-  border-radius: 9999px;
-  box-shadow: -5px 5px 30px rgba(18, 32, 41, 0.15);
+@keyframes next-page-animation-right {
+  0% {
+    transform: translateX(0px);
+  }
+  40% {
+    transform: translateX(350px);
+    opacity: 0;
+  }
+  60% {
+    transform: translateX(-350px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
 }
-.tag span {
-  font-family: "Urbanist-Regular", sans-serif;
-  font-size: 1.125rem;
-  color: hsl(203deg, 39%, 12%);
-  line-height: 1.5;
-  letter-spacing: 0.03125rem;
-  color: hsl(0deg, 0%, 100%);
+@keyframes next-page-animation-left {
+  0% {
+    transform: translateX(0px);
+  }
+  40% {
+    transform: translateX(-350px);
+    opacity: 0;
+  }
+  60% {
+    transform: translateX(350px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
 }
-
 :root {
   scroll-behavior: smooth;
 }
@@ -185,6 +201,14 @@ nav .lang span {
   }
 }
 
+.next-page-animation-right {
+  animation: next-page-animation-right 0.3s;
+}
+
+.next-page-animation-left {
+  animation: next-page-animation-left 0.3s;
+}
+
 .next-page {
   margin-top: 12.5rem;
   padding: 9.375rem 9.375rem 6.25rem;
@@ -195,6 +219,12 @@ nav .lang span {
   justify-content: center;
   align-items: center;
   gap: 0px;
+}
+.next-page:hover .cont-arrow {
+  animation: next-page-animation-right 0.3s;
+}
+.next-page:hover .cont-arrow.flipped {
+  animation: next-page-animation-left 0.3s;
 }
 @media (max-width: 744px) {
   .next-page {
@@ -217,9 +247,6 @@ nav .lang span {
 .next-page .inner .cont-arrow {
   width: 40px;
   height: 40px;
-}
-.next-page .inner .cont-arrow.flip {
-  transform: rotate(180deg);
 }
 .next-page .inner .cont-arrow img {
   width: 100%;
@@ -612,9 +639,12 @@ p {
   width: 40px;
   height: 40px;
 }
-#hero .cont-socials .social img {
+#hero .cont-socials .social svg {
   width: 100%;
   height: 100%;
+}
+#hero .cont-socials .social svg:hover path {
+  fill: hsl(67deg, 100%, 45%);
 }
 
 #testimonies {
@@ -874,8 +904,21 @@ p {
   position: relative;
 }
 .about-me .left-tags .tag {
+  display: inline-block;
+  background: rgba(18, 32, 41, 0.8);
+  padding: 0.3125rem 1.25rem;
+  border-radius: 9999px;
+  box-shadow: -5px 5px 30px rgba(18, 32, 41, 0.15);
   position: absolute;
   cursor: pointer;
+}
+.about-me .left-tags .tag span {
+  font-family: "Urbanist-Regular", sans-serif;
+  font-size: 1.125rem;
+  color: hsl(203deg, 39%, 12%);
+  line-height: 1.5;
+  letter-spacing: 0.03125rem;
+  color: hsl(0deg, 0%, 100%);
 }
 .about-me .left-tags .tag.active {
   background: hsl(67deg, 100%, 50%);
@@ -1242,6 +1285,23 @@ p {
   flex-basis: 40%;
 }
 .project-description .progress p {
+  margin-top: 1.25rem;
+}
+
+.page.mentions_legales {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 75px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-bottom: 9.375rem;
+}
+.page.mentions_legales h1 {
+  width: 100%;
+  text-align: center;
+}
+.page.mentions_legales p {
   margin-top: 1.25rem;
 }
 

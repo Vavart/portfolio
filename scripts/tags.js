@@ -3,9 +3,6 @@
 const aboutZone = document.querySelector(".about-me");
 const allTags = Array.from(document.querySelectorAll(".tag"));
 
-console.log(aboutZone);
-console.log(allTags);
-
 aboutZone.addEventListener("mousemove", (e) => {
 
     allTags.forEach(tag => {

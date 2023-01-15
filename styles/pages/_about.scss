@@ -19,6 +19,7 @@
         position: relative;
 
         .tag {
+            @include tag();
             position: absolute;
             cursor: pointer;
 

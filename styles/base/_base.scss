@@ -111,6 +111,13 @@ nav {
 
 // Next page
 
+.next-page-animation-right {
+    animation: next-page-animation-right 0.3s;
+}
+.next-page-animation-left {
+    animation: next-page-animation-left 0.3s;
+}
+
 .next-page {
     margin-top: $space-900;
     padding: $space-800 $space-800 $space-700;
@@ -118,6 +125,16 @@ nav {
     background: $color-palette-secondary-400;
     min-height: $space-900;
     @include flex();
+
+    &:hover {
+        .cont-arrow {
+            animation: next-page-animation-right 0.3s;
+            
+            &.flipped {
+                animation: next-page-animation-left 0.3s;
+            }
+        }
+    }
 
     @include media-medium {
         padding: $space-700 $space-700 $space-600;
@@ -135,10 +152,6 @@ nav {
         .cont-arrow {
             width: 40px;
             height: 40px;
-    
-            &.flip {
-                transform: rotate(180deg);
-            }
 
             img {
                 width: 100%;

@@ -1,14 +1,107 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicons/favicon-16x16.png">
+    <link rel="manifest" href="/assets/favicons/site.webmanifest">
+    <link rel="mask-icon" href="/assets/favicons/safari-pinned-tab.svg" color="#122029">
+    <link rel="shortcut icon" href="/assets/favicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#122029">
+    <meta name="msapplication-config" content="/assets/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#122029">
+
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="scripts/app.js" defer></script>
 </head>
 <body>
-    <h1>Coucou c'est les mentions légales</h1>
 
-    <a href="index.html">Revenir à l'accueil</a>
+    
+
+    <!-- Navigation -->
+    <nav>
+        <a href="index.html" class="nav-brand">
+            <img src="assets/icons/ms.svg" alt="logo">
+        </a>
+        
+        <div class="nav-links">
+            <a href="index.html">Accueil / Projets</a>
+            <a href="about.html">À propos</a>
+        </div>
+        
+        <button class="lang">
+            <div class="cont-flag">
+                <img src="assets/icons/us_flag.svg" alt="usa flag">
+            </div>
+            <span>Anglais</span>
+        </button>
+    </nav>
+
+    <!-- Main page -->
+    <main class="page g-small blog-mode mentions_legales">
+
+        <h1 class="after">Mentions <span>légales</span></h1>
+
+        <div class="edition">
+            <h2>Édition du site Internet</h2>
+            <p>Le site https://maximesciare.com (ci-après « le Site ») est édité par Maxime Sciare.</p>
+        </div>
+
+        <div class="redaction">
+            <h2>Rédaction du site Internet</h2>
+            <p>Directeur de la publication : Maxime Sciare</p>
+            <p>Contact : bonjour@maximesciare.com</p>
+        </div>
+
+        <div class="hebergement">
+            <h2>Hébergement du site Internet</h2>
+            <p>Le site https://maximesciare.com est hébergé par OVH, 2 rue Kellermann, 59100 Roubaix.</p>
+        </div>
+
+        <div class="pi">
+            <h2>Respect de la propriété intellectuelle</h2>
+            <p>Toutes les marques, photographies, textes, commentaires, illustrations, images animées ou non, séquences vidéo, sons, ainsi que toutes les applications informatiques qui pourraient être utilisées pour faire fonctionner le Site et plus généralement tous les éléments reproduits ou utilisés sur le Site sont protégés par les lois en vigueur au titre de la propriété intellectuelle.</p>
+
+            <p>Ils sont la propriété pleine et entière de l'Éditeur ou de ses partenaires, sauf mentions particulières. Toute reproduction, représentation, utilisation ou adaptation, sous quelque forme que ce soit, de tout ou partie de ces éléments, y compris les applications informatiques, sans l'accord préalable et écrit de l'Éditeur, sont strictement interdites. Le fait pour l'Éditeur de ne pas engager de procédure dès la prise de connaissance de ces utilisations non autorisées ne vaut pas acceptation desdites utilisations et renonciation aux poursuites.</p>
+
+            <p>Seule l'utilisation pour un usage privé dans un cercle de famille est autorisée et toute autre utilisation est constitutive de contrefaçon et/ou d'atteinte aux droits voisins, sanctionnées par le Code de la propriété intellectuelle.</p>
+
+            <p>La reprise de tout ou partie de ce contenu nécessite l'autorisation préalable de l'Éditeur ou du titulaire des droits sur ce contenu.</p>
+        </div>
+
+        <div class="links">
+            <h2>Liens hypertextes</h2>
+            <p>Le Site peut contenir des liens hypertextes donnant accès à d’autres sites Internet édités et gérés par des tiers et non par l'Éditeur. L’Editeur ne pourra être tenu responsable directement ou indirectement dans le cas où lesdits sites tiers ne respecteraient pas les dispositions légales.</p>
+        </div>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-brand">
+            <img src="assets/icons/ms.svg" alt="logo">
+        </div>
+
+        <div class="footer-text">
+            <p>©2023 - Développé par mes soins avec ❤️</p>
+            <a href="mentions_legales.html">Mentions légales</a>
+        </div>
+
+        <div class="cont-socials">
+            <a href="https://www.linkedin.com/in/maximesciare/" target="_blank" rel="noreferrer" class="social">
+                <img src="assets/icons/linkedin_light.svg" alt="linkedin icon">
+            </a>
+            <a href="https://github.com/Vavart" target="_blank" rel="noreferrer" class="social">
+                <img src="assets/icons/github_light.svg" alt="github icon">
+            </a>
+        </div>
+    </footer>
+    
 </body>
 </html>

@@ -206,6 +206,46 @@ $breakpoints-width: (
     }
 }
 
-.tag {
-    @include tag();
+// Animation class for next-page component
+
+@keyframes next-page-animation-right {
+    0% {
+        transform: translateX(0px);
+    }
+
+    40% {
+        transform: translateX(350px);
+        opacity: 0;
+    }
+
+    60% {
+        transform: translateX(-350px);
+       
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+@keyframes next-page-animation-left {
+    0% {
+        transform: translateX(0px);
+    }
+
+    40% {
+        transform: translateX(-350px);
+        opacity: 0;
+    }
+
+    60% {
+        transform: translateX(350px);
+       
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
 }
