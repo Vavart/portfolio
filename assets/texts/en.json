@@ -8,7 +8,7 @@
 
     "main-page-hero-title" : "Nice to mee you, I'm <span>Maxime</span>",
 
-    "main-page-hero-text" : "I am a developer with a passion for user experience. From the initial design to the final product, I enjoy designing interfaces that are adapted to users needs.",
+    "main-page-hero-text" : "I am a web developer with a passion for user experience. From the initial design to the final product, I enjoy designing interfaces that are adapted to users needs.",
     "main-page-hero-btn-text" : "View my projects",
     "main-page-hero-image-caption" : "it's me !",
     "main-page-hero-contact-me" : "Contact-me ! :)",
@@ -23,14 +23,14 @@
     "main-page-project-agilemans-title" : "AgiLeMans",
 
     "main-page-project-livrotheque-type" : "Book loan",
-    "main-page-project-livrotheque-title" : "The Livrothèque",
+    "main-page-project-livrotheque-title" : "Livrothèque",
 
     "main-page-next-page-text" : "Want to know more about me ?",
 
     "about-page-hero-title" : "I am (soon to become) an engineer specializing in person / system <span>interactions</span>",
     "about-page-hero-text" : "Currently in my 4th year of computer engineering studies, I am also learning a lot on my own. I like reading and acquire new knowledge every day, always with the aim of improving myself. Finally, I have made it my mission to make users' lives easier, in order to help them progress and save time.",
     "about-page-hero-in-short" : "In a nutshell :",
-    "about-page-hero-in-short-text" : "Developing interfaces that make <span>senss</span> thanks to ...",
+    "about-page-hero-in-short-text" : "Developing interfaces that make <span>sense</span> thanks to ...",
     "about-page-hero-tag-1" : "#web",
     "about-page-hero-tag-2" : "#gaming",
     "about-page-hero-tag-3" : "#entrepreneur",
@@ -70,18 +70,31 @@
     "about-page-skills-contact-btn-cv" : "Download my CV",
     "about-page-next-page-text" : "Let's go back to my projects ?",
 
+
+    "project-page-role" : "My role",
+    "project-page-process" : "Process",
+    "project-page-techs" : "Tools & technologies",
+    "project-page-next-page" : "Back to my projects ?",
+
+
     "project-page-agilemans-title" : "<span>AgiLeMans<span>",
     "project-page-agilemans-subtitle" : "Agility days in Sarthe !",
     "project-page-agilemans-summary" : "AgiLeMans is an association that promotes the merits and benefits of agility in Sarthe. Every year, the association organizes its Agile day where hundreds of people come to discover or re-discover methods to be happier and more efficient at work. I'm part of AgiLeMans since 2021 where I realized a good part of their communication and this website (link at the bottom of the page).",
     "project-page-agilemans-catch-phrase" : "The AgiLemans website was quite a challenge for me, having no knowledge of continuous integration. I was going into the unknown.",
-    "project-page-agilemans-role-title" : "My role",
     "project-page-agilemans-role-text" : "The purpose was to update the old website of the association by proposing a new and ergonomic style while facilitating its management by the members of the association. A particular attention was paid to the adaptation of the site on different types of screens (responsive) and to the speed of it.",
-    "project-page-agilemans-process-title" : "Process",
     "project-page-agilemans-process-text" : "I first realized the whole design on Figma as usual before justifying to the association the technology I was going to use, Next.js. This JavaScript framework is indeed the first thing I thought of to answer the speed criterion. It adds image optimization and static page rendering to React. Instead of hydrating the site dynamically with JavaScript, static HTML pages are generated, allowing at the same time to better index the site on search engines. What to make AgiLeMans known to the greatest number!",
-    "project-page-agilemans-techs" : "Tools & technologies",
     "project-page-agilemans-cta-text" : "Go on the website",
-    "project-page-agilemans-next-page" : "Back to my projects ?",
 
+
+    "project-page-livrotheque-title" : "The <span>Livrothèque<span>",
+    "project-page-livrotheque-subtitle" : "A library website for curious readers !",
+    "project-page-livrotheque-summary" : "This fictitious website is a project I led during my studies. The goal was to develop a full-stack interface. The Livrothèque allows users to borrow books from the library through the site's interface. An administrator interface is available for the managers of the library, giving them the possibility to manage the stock (order, book edition, deletion) and the borrowing of the customers.",
+    "project-page-livrotheque-catch-phrase" : "Although I had developed many front-end interfaces in the past, this project was my first experience with the back-end.",
+    "project-page-livrotheque-role-text" : "In a student context here, my goal was to discover how to link (for the first time) a database to a static website. The challenge was big but very rewarding. Developing a complete project allows to concretely implement the skills acquired in the past and to progress.",
+    "project-page-livrotheque-process-text" : "As usual I first realized the whole design of the site on Figma before moving to the implementation of the database. The relationships were quite simple to set up, the objective being above all to learn how to integrate this database to the site using PHP. The rest of the project is quite linear, I first developed the whole front-end (including responsive) before integrating the PHP and SQL queries. Having still some time available before the final rendering, I was able to implement a login system with the possibility to update his personal information. A long project to do alone, but very rewarding afterwards.",
+    "project-page-livrotheque-cta-text" : "View on GitHub",
+
+    
     "legal-title" : "<span>Legal</span> notices",
     "legal-edition-title" : "Website edition",
     "legal-edition-text" : "The site https://maximesciare.com (hereinafter 'the Site') is edited by Maxime Sciare.",

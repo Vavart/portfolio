@@ -1215,11 +1215,11 @@ p {
   flex-direction: column;
 }
 .project-preview .cont-preview {
-  box-shadow: -5px 5px 30px rgba(18, 32, 41, 0.15);
   width: 100%;
-  height: 100%;
+  border-radius: 0.625rem;
 }
 .project-preview .cont-preview img {
+  box-shadow: -5px 5px 30px rgba(18, 32, 41, 0.15);
   border-radius: 0.625rem;
   width: 100%;
   height: 100%;
@@ -1227,6 +1227,10 @@ p {
 }
 .project-preview h3 {
   text-align: center;
+}
+
+.catch-phrase::before, .catch-phrase::after {
+  content: '"';
 }
 
 .project-description {
