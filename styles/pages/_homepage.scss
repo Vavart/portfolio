@@ -112,7 +112,7 @@
     
     .cont-testimonies {
         margin-top: $space-700;
-        @include flex($gap: 20px);
+        @include flex($gap: 20px, $align : "start");
         flex-wrap: wrap;
     }
 }
@@ -121,21 +121,17 @@
 
 .testimony-card {
     background: $color-palette-white;
-    @include flex($gap: 20px);
+    @include flex($gap: 20px, $col : true);
     padding: $space-100 $space-200;
     border-radius: $space-50;
     max-width: 3*$space-800;
-
-    @include media-small {
-        @include flex($gap: 20px, $col: true);
-    }
 
     .left-pic {
         @include flex($col: true);
 
         .cont-pic {
-            width: 150px;
-            height: 150px;
+            width: 125px;
+            height: 125px;
             border-radius: $button-pill-radius;
             border: 2px solid $color-palette-primary-400;
             
@@ -149,8 +145,12 @@
     }
 
     .right-text {
-        p { @include text($type: "italic"); }
-        span { @include text($size: "small"); }
+        p { @include text($type: "italic", $size: "small"); }
+        span { 
+            display: inline-block;
+            margin-top: $space-200; 
+            @include text($size: "small"); 
+        }
     }
 }
 

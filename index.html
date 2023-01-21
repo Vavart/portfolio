@@ -18,6 +18,7 @@
 
     <link rel="stylesheet" href="styles/style.css">
     <script src="scripts/next_page.js" defer></script>
+    <script src="scripts/translation.js" defer></script>
 </head>
 <body>
 
@@ -28,8 +29,8 @@
         </a>
         
         <div class="nav-links">
-            <a href="index.html" class="active">Accueil / Projets</a>
-            <a href="about.html">À propos</a>
+            <a href="index.html" class="active" data-lang="nav-link-1">Accueil / Projets</a>
+            <a href="about.html" data-lang="nav-link-2">À propos</a>
         </div>
         
         <button class="lang">
@@ -46,9 +47,9 @@
         <!-- Hero section -->
         <section id="hero">
             <div class="left-presentation">
-                <h1 class="after">Enchanté, moi c'est <span>Maxime</span></h1>
-                <p>Cake tootsie roll bonbon apple pie fruitcake. Topping cookie bear claw dragée croissant gingerbread pie. Toffee donut muffin toffee tootsie roll chocolate bar. Muffin liquorice liquorice pudding tootsie roll caramels marshmallow.</p>
-                <a href="#projects" class="btn-cta">
+                <h1 class="after" data-lang="main-page-hero-title">Enchanté, moi c'est <span>Maxime</span></h1>
+                <p data-lang="main-page-hero-text">Je suis un développeur passionné par l'expérience utilisateur. Du design initial au produit final, j'apprécie énormément concevoir des interfaces adaptées aux besoin des utilisateurs.</p>
+                <a href="#projects" class="btn-cta" data-lang="main-page-hero-btn-text">
                     Voir mes projets
                 </a>
             </div>
@@ -57,13 +58,13 @@
                 <div class="cont-photo">
                     <img src="assets/images/myself.jpg" alt="picture of me">
                     <div class="arrow-its-me">
-                        <span>c'est moi !</span>
+                        <span data-lang="main-page-hero-image-caption">c'est moi !</span>
                         <img src="assets/icons/arrow_curved.svg" alt="curved arrow">
                     </div>
                 </div>
 
                 <div class="contact-me">
-                    <p>Contactez-moi ! :)</p>
+                    <p data-lang="main-page-hero-contact-me">Contactez-moi ! :)</p>
                 </div>
     
                 <div class="cont-socials">
@@ -100,7 +101,7 @@
         <!-- Testimonies -->
         <section id="testimonies">
             <div class="cont-title">
-                <h2>Ils en parlent</h2>
+                <h2 data-lang="main-page-testimonies-title">Ils m'ont fait confiance</h2>
                 <hr>
             </div>
     
@@ -108,13 +109,15 @@
                 <div class="testimony-card">
                     <div class="left-pic">
                         <div class="cont-pic">
-                            <img src="assets/images/myself.jpg" alt="myself">
+                            <img src="assets/images/samia.jpg" alt="myself">
                         </div>
                     </div>
             
                     <div class="right-text">
-                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
-                        <span>Lorem ipsum dolor sit.</span>
+                        <p data-lang="main-page-testimonies-samia-text">
+                            "J'ai fait confiance à Maxime pour la réalisation de prototypes sur FIGMA, dans le cadre de la création de mon entreprise ! Je n'ai pas été déçue : j'ai retrouvé chez Maxime une oreille attentive, des conseils et un travail rigoureux et irréprochable ! Je recommande son travail et son professionnalisme ! Encore merci Maxime !"
+                        </p>
+                        <span data-lang="main-page-testimonies-samia-caption">Samia EL FAROUKI : Fondatrice d'Awake Tissu</span>
                     </div>
                 </div>
     
@@ -150,15 +153,15 @@
         <!-- Projects -->
         <section id="projects">
             <div class="cont-title">
-                <h2 class="after">Mes <span>projets</span></h2>
+                <h2 class="after" data-lang="main-page-project-title">Mes <span>projets</span></h2>
             </div>
     
             <div class="cont-projects">
                 <a href="projects/agilemans.html" class="project-card">
                     <div class="left-description">
                         <div class="top-titles">
-                            <span>Site web vitrine</span>
-                            <h3>AgiLeMans</h3>
+                            <span data-lang="main-page-project-agilemans-type">Site web vitrine</span>
+                            <h3 data-lang="main-page-project-agilemans-title">AgiLeMans</h3>
                         </div>
             
                         <div class="bottom-technos">
@@ -196,8 +199,8 @@
                 <a href="projects/agilemans.html" class="project-card">
                     <div class="left-description">
                         <div class="top-titles">
-                            <span>Emprunts de livres</span>
-                            <h3>La Livrothèque</h3>
+                            <span data-lang="main-page-project-livrotheque-type">Emprunts de livres</span>
+                            <h3 data-lang="main-page-project-livrotheque-title">La Livrothèque</h3>
                         </div>
             
                         <div class="bottom-technos">
@@ -256,8 +259,8 @@
         </div>
 
         <div class="footer-text">
-            <p>©2023 - Développé par mes soins avec ❤️</p>
-            <a href="mentions_legales.html">Mentions légales</a>
+            <p data-lang="footer-text">©2023 - Développé par mes soins avec ❤️</p>
+            <a href="mentions_legales.html" data-lang="footer-text">Mentions légales</a>
         </div>
 
         <div class="cont-socials">

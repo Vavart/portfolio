@@ -691,6 +691,7 @@ p {
   justify-content: center;
   align-items: center;
   gap: 20px;
+  align-items: flex-start;
   flex-wrap: wrap;
 }
 
@@ -700,18 +701,10 @@ p {
   justify-content: center;
   align-items: center;
   gap: 20px;
+  flex-direction: column;
   padding: 0.625rem 1.25rem;
   border-radius: 0.3125rem;
   max-width: 28.125rem;
-}
-@media (max-width: 596px) {
-  .testimony-card {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    flex-direction: column;
-  }
 }
 .testimony-card .left-pic {
   display: flex;
@@ -721,8 +714,8 @@ p {
   flex-direction: column;
 }
 .testimony-card .left-pic .cont-pic {
-  width: 150px;
-  height: 150px;
+  width: 125px;
+  height: 125px;
   border-radius: 9999px;
   border: 2px solid hsl(203deg, 39%, 12%);
 }
@@ -739,8 +732,11 @@ p {
   line-height: 1.5;
   letter-spacing: 0.03125rem;
   font-family: "Urbanist-Light-Italic", sans-serif;
+  font-size: 0.875rem;
 }
 .testimony-card .right-text span {
+  display: inline-block;
+  margin-top: 1.25rem;
   font-family: "Urbanist-Regular", sans-serif;
   font-size: 1.125rem;
   color: hsl(203deg, 39%, 12%);

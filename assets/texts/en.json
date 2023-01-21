@@ -1,0 +1,86 @@
+{
+
+    "nav-link-1" : "Home / Projects",
+    "nav-link-2" : "About",
+
+
+    "main-page-hero-title" : "Nice to mee you, I'm <span>Maxime</span>",
+
+    "main-page-hero-text" : "I am a developer with a passion for user experience. From the initial design to the final product, I enjoy designing interfaces that are adapted to users needs.",
+    "main-page-hero-btn-text" : "View my projects",
+    "main-page-hero-image-caption" : "c'est moi !",
+    "main-page-hero-contact-me" : "Contact-me ! :)",
+
+    "main-page-testimonies-title" : "They trusted me",
+    "main-page-testimonies-samia-text" : "I trusted Maxime for the realization of prototypes on FIGMA, within the framework of the creation of my company! I was not disappointed : I found Maxime to be an attentive listener, offering advice and a rigorous and impeccable work! I recommend his work and his professionalism! Thanks again Maxime!",
+    "main-page-testimonies-samia-caption" : "Samia EL FAROUKI : Awake Tissu founder",
+
+    "main-page-project-title" : "My <span>projects</span>",
+
+    "main-page-project-agilemans-type" : "Showcase website",
+    "main-page-project-agilemans-title" : "AgiLeMans",
+
+    "main-page-project-livrotheque-type" : "Book loan",
+    "main-page-project-livrotheque-title" : "The Livrothèque",
+
+    "main-page-next-page-text" : "Want to know more about me ?",
+
+    "about-page-hero-title" : "I am (soon to become) an engineer specializing in person / system <span>interactions</span>",
+    "about-page-hero-text" : "Currently in my 4th year of computer engineering studies, I am also learning a lot on my own. I like reading and acquire new knowledge every day, always with the aim of improving myself. Finally, I have made it my mission to make users' lives easier, in order to help them progress and save time.",
+    "about-page-hero-in-short" : "In a nutshell :",
+    "about-page-hero-in-short-text" : "Developing interfaces that make <span>senss</span> thanks to ...",
+    "about-page-hero-tag-1" : "#web",
+    "about-page-hero-tag-2" : "#gaming",
+    "about-page-hero-tag-3" : "#entrepreneur",
+    "about-page-hero-tag-4" : "#ergonomics",
+    "about-page-hero-tag-5" : "#responsive",
+    "about-page-hero-tag-6" : "#agility",
+    "about-page-hero-tag-7" : "#uxdesign",
+    "about-page-hero-tag-8" : "#developer",
+    "about-page-hero-tag-9" : "#reading",
+    "about-page-hero-tag-10" : "#vision",
+
+    "about-page-skills-title" : "My skils",
+    "about-page-skills-languages-text" : "The <span>languages</span> and <span>frameworks</span> that I use",
+    "about-page-skills-tools-text" : "My main <span>tools</span> (web & design)",
+    "about-page-skills-soft-title" : "My <span>soft</span> skills",
+    "about-page-skills-soft-1" : "Persistent",
+    "about-page-skills-soft-2" : "Caring",
+    "about-page-skills-soft-3" : "Creativity",
+    "about-page-skills-soft-4" : "Communication",
+    "about-page-skills-soft-5" : "Leadership",
+    "about-page-skills-soft-6" : "Think out of the box",
+    "about-page-skills-soft-7" : "Team spirit",
+    "about-page-skills-soft-8" : "Critical thinking",
+    "about-page-skills-soft-9" : "Curiosity",
+    "about-page-skills-hard-title" : "My <span>hard</span> skills",
+    "about-page-skills-hard-1" : "Team work",
+    "about-page-skills-hard-2" : "Agility, Scrum, SAFe",
+    "about-page-skills-hard-3" : "Entrepreneurship",
+    "about-page-skills-hard-4" : "UX/UI Design",
+    "about-page-skills-hard-5" : "UX Writing",
+    "about-page-skills-hard-6" : "Web design",
+    "about-page-skills-hard-7" : "Web development",
+    "about-page-skills-hard-8" : "Continuous integration",
+    "about-page-skills-hard-9" : "Responsive design",
+    "about-page-skills-contact-title" : "Contact me",
+    "about-page-skills-contact-btn-linkedin" : "Open LinkedIn profile",
+    "about-page-skills-contact-btn-cv" : "Download my CV",
+    "about-page-next-page-text" : "Let's go back to my projects ?",
+
+    "project-page-agilemans-title" : "<span>AgiLeMans<span>",
+    "project-page-agilemans-subtitle" : "Agility days in Sarthe !",
+    "project-page-agilemans-summary" : "AgiLeMans is an association that promotes the merits and benefits of agility in Sarthe. Every year, the association organizes its Agile day where hundreds of people come to discover or re-discover methods to be happier and more efficient at work. I'm part of AgiLeMans since 2021 where I realized a good part of their communication and this website (link at the bottom of the page).",
+    "project-page-agilemans-catch-phrase" : "The AgiLemans website was quite a challenge for me, having no knowledge of continuous integration. I was going into the unknown.",
+    "project-page-agilemans-role-title" : "My role",
+    "project-page-agilemans-role-text" : "The purpose was to update the old website of the association by proposing a new and ergonomic style while facilitating its management by the members of the association. A particular attention was paid to the adaptation of the site on different types of screens (responsive) and to the speed of it.",
+    "project-page-agilemans-process-title" : "Process",
+    "project-page-agilemans-process-text" : "I first realized the whole design on Figma as usual before justifying to the association the technology I was going to use, Next.js. This JavaScript framework is indeed the first thing I thought of to answer the speed criterion. It adds image optimization and static page rendering to React. Instead of hydrating the site dynamically with JavaScript, static HTML pages are generated, allowing at the same time to better index the site on search engines. What to make AgiLeMans known to the greatest number!",
+    "project-page-agilemans-techs" : "Tools & technologies",
+    "project-page-agilemans-cta-text" : "Go on the website",
+    "project-page-agilemans-next-page" : "Back to the projects ?",
+
+
+    "footer-text" : "©2023 - Développé by me with ❤️",
+    "footer-legal" : "Legal notices"
+}

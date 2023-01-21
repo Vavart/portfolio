@@ -1,0 +1,88 @@
+{
+
+    "nav-link-1" : "Accueil / Projets",
+    "nav-link-2" : "À propos",
+
+
+    "main-page-hero-title" : "Enchanté, moi c'est <span>Maxime</span>",
+
+    "main-page-hero-text" : "Je suis un développeur passionné par l'expérience utilisateur. Du design initial au produit final, j'apprécie énormément concevoir des interfaces adaptées aux besoin des utilisateurs.",
+    "main-page-hero-btn-text" : "Voir mes projets",
+    "main-page-hero-image-caption" : "c'est moi !",
+    "main-page-hero-contact-me" : "Contactez-moi ! :)",
+
+    "main-page-testimonies-title" : "Ils m'ont fait confiance",
+    "main-page-testimonies-samia-text" : "J'ai fait confiance à Maxime pour la réalisation de prototypes sur FIGMA, dans le cadre de la création de mon entreprise ! Je n'ai pas été déçue : j'ai retrouvé chez Maxime une oreille attentive, des conseils et un travail rigoureux et irréprochable ! Je recommande son travail et son professionnalisme ! Encore merci Maxime !",
+    "main-page-testimonies-samia-caption" : "Samia EL FAROUKI : Fondatrice d'Awake Tissu",
+
+    "main-page-project-title" : "Mes <span>projets</span>",
+
+    "main-page-project-agilemans-type" : "Site web vitrine",
+    "main-page-project-agilemans-title" : "AgiLeMans",
+
+    "main-page-project-livrotheque-type" : "Emprunts de livres",
+    "main-page-project-livrotheque-title" : "La Livrothèque",
+
+    "main-page-next-page-text" : "Vous souhaitez en savoir plus sur moi ?",
+
+    "about-page-hero-title" : "Je suis (bientôt) ingénieur spécialisé en <span>interactions</span> personne / système",
+    "about-page-hero-text" : "Actuellement en 4ème année d'études d'ingénierie informatique, j'apprends aussi beaucoup en autonomie. J'aime lire et acquérir de nouvelles connaisances chaque jour, toujours dans le but de m'améliorer. Enfin, je me suis donné pour mission de faciliter la vie des utilisateurs, afin de leur permettre de progresser et de gagner du temps.",
+    "about-page-hero-in-short" : "En résumé :",
+    "about-page-hero-in-short-text" : "Développer des interfaces qui font <span>sens</span> grâce à ...",
+    "about-page-hero-tag-1" : "#web",
+    "about-page-hero-tag-2" : "#gaming",
+    "about-page-hero-tag-3" : "#entrepreneur",
+    "about-page-hero-tag-4" : "#ergonomie",
+    "about-page-hero-tag-5" : "#responsive",
+    "about-page-hero-tag-6" : "#agilite",
+    "about-page-hero-tag-7" : "#uxdesign",
+    "about-page-hero-tag-8" : "#developpeur",
+    "about-page-hero-tag-9" : "#lecture",
+    "about-page-hero-tag-10" : "#vision",
+
+    "about-page-skills-title" : "Mes compétences",
+    "about-page-skills-languages-text" : "Les <span>langages</span> et <span>frameworks</span> que je pratique",
+    "about-page-skills-tools-text" : "Mes <span>outils</span> principaux (web & design)",
+    "about-page-skills-soft-title" : "Mes <span>soft</span> skills",
+    "about-page-skills-soft-1" : "Pérsévérance",
+    "about-page-skills-soft-2" : "Empathie",
+    "about-page-skills-soft-3" : "Créativité",
+    "about-page-skills-soft-4" : "Communication",
+    "about-page-skills-soft-5" : "Leadership",
+    "about-page-skills-soft-6" : "Think out of the box",
+    "about-page-skills-soft-7" : "Esprit d'équipe",
+    "about-page-skills-soft-8" : "Esprit critique",
+    "about-page-skills-soft-9" : "Curiosité",
+    "about-page-skills-hard-title" : "Mes <span>hard</span> skills",
+    "about-page-skills-hard-1" : "Team work",
+    "about-page-skills-hard-2" : "Agilité, Scrum, SAFe",
+    "about-page-skills-hard-3" : "Entrepreneuriat",
+    "about-page-skills-hard-4" : "UX/UI Design",
+    "about-page-skills-hard-5" : "UX Writing",
+    "about-page-skills-hard-6" : "Maquettage web",
+    "about-page-skills-hard-7" : "Programmation web",
+    "about-page-skills-hard-8" : "Intégration continue",
+    "about-page-skills-hard-9" : "Responsive design",
+    "about-page-skills-contact-title" : "Me contacter",
+    "about-page-skills-contact-btn-linkedin" : "Voir le profil LinkedIn",
+    "about-page-skills-contact-btn-cv" : "Télécharger le CV",
+    "about-page-next-page-text" : "On retourne voir mes projets ?",
+
+    "project-page-agilemans-title" : "<span>AgiLeMans<span>",
+    "project-page-agilemans-subtitle" : "Les journées de l'agilité en Sarthe !",
+    "project-page-agilemans-summary" : "AgiLeMans est une association qui vante les mérites et bienfaits de l'agilité en Sarthe. Chaque année, l'association organise sa journée Agile où des centaines de personnes viennent découvrir ou re-découvrir des méthodes pour être plus heureux et plus performant au travail. Je fais partie d'AgiLeMans depuis 2021 où j'ai réalisé une bonne partie de leur communication ainsi que ce site web (lien en bas de page).",
+    "project-page-agilemans-catch-phrase" : "Le site web d'AgiLemans représentait un sacré défi pour moi, n'ayant aucune connaissance en intégration continue. Je me lançais un peu dans l'inconnu",
+    "project-page-agilemans-role-title" : "Mon rôle",
+    "project-page-agilemans-role-text" : "L'objectif était de mettre au goût du jour l'ancien site web de l'association en proposant un style neuf et ergonomique tout en facilitant sa gestion par les membres de l'asocciation. Une attention toute particulière était portée à l'adaptation du site sur différents types d'écrans (responsive) et à la vitesse de celui-ci.",
+    "project-page-agilemans-process-title" : "Déroulement",
+    "project-page-agilemans-process-text" : "J'ai premièrement réalisé l'ensemble du design sur Figma comme à mon habitude avant de justifier à l'association la technologie que j'allais utiliser, Next.js. Ce framework JavaScript est en effet la première chose à laquelle j'ai pensé pour répondre au critère de rapidité. Il ajoute à React l'optimisation des images et les rendus de page statiques. Au lieu d'hydater le site dynamiquement à l'aide de JavaScript, des pages HTML statiques sont générés, permettant par la même occasion de mieux indexer le site sur les moteurs de recherche. De quoi faire connaître AgiLeMans au plus grand nombre !",
+    "project-page-agilemans-techs" : "Technologies & outils",
+    "project-page-agilemans-cta-text" : "Visiter le site",
+    "project-page-agilemans-next-page" : "Revenir aux projets ?",
+
+
+
+
+    "footer-text" : "©2023 - Développé par mes soins avec ❤️",
+    "footer-legal" : "Mentions légales"
+}

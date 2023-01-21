@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="styles/style.css">
     <script src="scripts/next_page.js" defer></script>
     <script src="scripts/tags.js" defer></script>
+    <script src="scripts/translation.js" defer></script>
 </head>
 <body>
 
@@ -31,8 +32,8 @@
         </a>
         
         <div class="nav-links">
-            <a href="index.html">Accueil / Projets</a>
-            <a href="about.html" class="active">À propos</a>
+            <a href="index.html" data-lang="nav-link-1">Accueil / Projets</a>
+            <a href="about.html" class="active" data-lang="nav-link-2">À propos</a>
         </div>
         
         <button class="lang">
@@ -50,46 +51,46 @@
         <div class="about-me">
             <div class="left-tags">
                 <div class="tag" data-value="-4">
-                    <span>#web</span>
+                    <span data-lang="about-page-hero-tag-1">#web</span>
                 </div>
                 <div class="tag" data-value="6">
-                    <span>#gaming</span>
+                    <span data-lang="about-page-hero-tag-2">#gaming</span>
                 </div>
                 <div class="tag" data-value="4">
-                    <span>#entrepreneur</span>
+                    <span data-lang="about-page-hero-tag-3">#entrepreneur</span>
                 </div>
                 <div class="tag" data-value="-3">
-                    <span>#ergonomie</span>
+                    <span data-lang="about-page-hero-tag-4">#ergonomie</span>
                 </div>
                 <div class="tag" data-value="-8">
-                    <span>#responsive</span>
+                    <span data-lang="about-page-hero-tag-5">#responsive</span>
                 </div>
                 <div class="tag" data-value="-4">
-                    <span>#agilite</span>
+                    <span data-lang="about-page-hero-tag-6">#agilite</span>
                 </div>
                 <div class="tag" data-value="-5">
-                    <span>#uxdesign</span>
+                    <span data-lang="about-page-hero-tag-7">#uxdesign</span>
                 </div>
                 <div class="tag" data-value="-9">
-                    <span>#developpeur</span>
+                    <span data-lang="about-page-hero-tag-8">#developpeur</span>
                 </div>
                 <div class="tag" data-value="-5">
-                    <span>#lecture</span>
+                    <span data-lang="about-page-hero-tag-9">#lecture</span>
                 </div>
                 <div class="tag" data-value="4">
-                    <span>#vision</span>
+                    <span data-lang="about-page-hero-tag-10">#vision</span>
                 </div>
             </div>
 
             <div class="right-description">
-                <h2 class="after">Je suis ingénieur spécialisé en <span>interactions</span> personne / système</h2>
+                <h2 class="after" data-lang="about-page-hero-title">Je suis (bientôt) ingénieur spécialisé en <span>interactions</span> personne / système</h2>
 
-                <p>Obviously best practices we need distributors to evangelize the new line to local markets, for work flows three-martini lunch. Product market fit good optics, and bleeding edge. We're building the plane while we're flying it. Manage expectations cloud strategy, or window of opportunity radical candor, or the closest elephant is the most dangerous, or can we jump on a zoom.</p>
+                <p data-lang="about-page-hero-text">Actuellement en 4ème année d'études d'ingénierie informatique, j'apprends aussi beaucoup en autonomie. J'aime lire et acquérir de nouvelles connaisances chaque jour, toujours dans le but de m'améliorer. Enfin, je me suis donné pour mission de faciliter la vie des utilisateurs, afin de leur permettre de progresser et de gagner du temps.</p>
 
-                <p class="boldy">En résumé :</p>
+                <p class="boldy" data-lang="about-page-in-short">En résumé :</p>
 
                 <div class="cont-h3">
-                    <h3 class="after">Développer des interfaces qui font <span>sens</span> grâce à ...</h3>
+                    <h3 class="after" data-lang="about-page-in-short-text">Développer des interfaces qui font <span>sens</span> grâce à ...</h3>
 
                     <div class="cont-arrow">
                         <img src="assets/icons/arrow_curved.svg" alt="curved arrow">
@@ -101,7 +102,7 @@
         <!-- My skils -->
         <div class="my-skills">
             <div class="cont-title">
-                <h2>Mes compétences</h2>
+                <h2 data-lang="about-page-skills-title">Mes compétences</h2>
                 <hr>
             </div>
 
@@ -109,7 +110,7 @@
                 <div class="languages-tools">
 
                     <div class="languages">
-                        <h3>Les <span>langages</span> et <span>frameworks</span> que je pratique</h3>
+                        <h3 data-lang="about-page-skills-language-text">Les <span>langages</span> et <span>frameworks</span> que je pratique</h3>
 
                         <div class="cont-languages-icons">
                             <div class="icon">
@@ -158,7 +159,7 @@
                     </div>
 
                     <div class="tools">
-                        <h3>Mes <span>outils</span> principaux (web & design)</h3>
+                        <h3 data-lang="about-page-skills-tools-text">Mes <span>outils</span> principaux (web & design)</h3>
 
                         <div class="cont-languages-icons">
                             <div class="icon">
@@ -183,32 +184,32 @@
 
                 <div class="soft-hard-skills">
                     <div class="soft-skills">
-                        <h3>Mes <span>soft</span> skills</h3>
+                        <h3 data-lang="about-page-skills-soft-title">Mes <span>soft</span> skills</h3>
                         <ul>
-                            <li>Persévérance</li>
-                            <li>Empathie</li>
-                            <li>Créativité</li>
-                            <li>Communiaction</li>
-                            <li>Leadership</li>
-                            <li>Think out the box</li>
-                            <li>Esprit d'équipe</li>
-                            <li>Esprit critique</li>
-                            <li>Curiosité</li>
+                            <li data-lang="about-page-skills-soft-1">Persévérance</li>
+                            <li data-lang="about-page-skills-soft-2">Empathie</li>
+                            <li data-lang="about-page-skills-soft-3">Créativité</li>
+                            <li data-lang="about-page-skills-soft-4">Communiaction</li>
+                            <li data-lang="about-page-skills-soft-5">Leadership</li>
+                            <li data-lang="about-page-skills-soft-6">Think out the box</li>
+                            <li data-lang="about-page-skills-soft-7">Esprit d'équipe</li>
+                            <li data-lang="about-page-skills-soft-8">Esprit critique</li>
+                            <li data-lang="about-page-skills-soft-9">Curiosité</li>
                         </ul>
                     </div>
     
                     <div class="hard-skills">
-                        <h3>Mes <span>hard</span> skills</h3>
+                        <h3 data-lang="about-page-skills-hard-title">Mes <span>hard</span> skills</h3>
                         <ul>
-                            <li>Team work</li>
-                            <li>Agilité, Scrum, SAFe</li>
-                            <li>Entrepreneuriat</li>
-                            <li>UX/UI Design</li>
-                            <li>UX Writing</li>
-                            <li>Maquettage web</li>
-                            <li>Programmation web</li>
-                            <li>Intégration continue</li>
-                            <li>Responsive</li>
+                            <li data-lang="about-page-skills-hard-1">Team work</li>
+                            <li data-lang="about-page-skills-hard-2">Agilité, Scrum, SAFe</li>
+                            <li data-lang="about-page-skills-hard-3">Entrepreneuriat</li>
+                            <li data-lang="about-page-skills-hard-4">UX/UI Design</li>
+                            <li data-lang="about-page-skills-hard-5">UX Writing</li>
+                            <li data-lang="about-page-skills-hard-6">Maquettage web</li>
+                            <li data-lang="about-page-skills-hard-7">Programmation web</li>
+                            <li data-lang="about-page-skills-hard-8">Intégration continue</li>
+                            <li data-lang="about-page-skills-hard-9">Responsive</li>
                         </ul>
                     </div>
                 </div>
@@ -218,15 +219,15 @@
 
 
             <div class="contact">
-                <h3>Me contacter</h3>
+                <h3 data-lang="about-page-skills-contact-title">Me contacter</h3>
 
                 <div class="cont-btns-contact">
                     <a href="https://www.linkedin.com/in/maximesciare/" target="_blank" rel="noreferrer" class="btn-cta icon">
-                        <span>Voir le profil LinkedIn</span>
+                        <span data-lang="about-page-skills-contact-btn-linkedin">Voir le profil LinkedIn</span>
                         <img src="assets/icons/linkedin_dark.svg" alt="linkedin icon">
                     </a>
                     <a href="#" class="btn-cta ghost icon">
-                        <span>Télécharger le CV</span>
+                        <span data-lang="about-page-skills-contact-btn-cv">Télécharger le CV</span>
                         <img src="assets/icons/download.svg" alt="download icon">
                     </a>
                 </div>
@@ -252,8 +253,8 @@
         </div>
 
         <div class="footer-text">
-            <p>©2023 - Développé par mes soins avec ❤️</p>
-            <a href="mentions_legales.html">Mentions légales</a>
+            <p data-lang="footer-text">©2023 - Développé par mes soins avec ❤️</p>
+            <a href="mentions_legales.html" data-lang="footer-legal">Mentions légales</a>
         </div>
 
         <div class="cont-socials">
