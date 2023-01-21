@@ -686,7 +686,7 @@ p {
   background: hsl(67deg, 100%, 50%);
 }
 #testimonies .cont-testimonies {
-  margin-top: 3.75rem;
+  margin: 3.75rem 0.625rem 0;
   padding: 0 0 1.25rem;
   display: flex;
   justify-content: center;
@@ -709,6 +709,11 @@ p {
   border-radius: 0.3125rem;
   max-width: 28.125rem;
 }
+@media (max-width: 596px) {
+  .testimony-card {
+    max-width: 300px;
+  }
+}
 .testimony-card .left-pic {
   display: flex;
   justify-content: center;
@@ -717,8 +722,8 @@ p {
   flex-direction: column;
 }
 .testimony-card .left-pic .cont-pic {
-  width: 125px;
-  height: 125px;
+  width: 100px;
+  height: 100px;
   border-radius: 9999px;
   border: 2px solid hsl(203deg, 39%, 12%);
 }

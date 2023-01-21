@@ -111,7 +111,7 @@
 
     
     .cont-testimonies {
-        margin-top: $space-600;
+        margin: $space-600 $space-100 0;
         padding: 0 0 $space-200;
         @include flex($gap: 20px, $align : "center", $justify: "start");
         flex-wrap: nowrap;
@@ -129,12 +129,16 @@
     border-radius: $space-50;
     max-width: 3*$space-800;
 
+    @include media-small {
+        max-width: 300px;
+    }
+
     .left-pic {
         @include flex($col: true);
 
         .cont-pic {
-            width: 125px;
-            height: 125px;
+            width: 100px;
+            height: 100px;
             border-radius: $button-pill-radius;
             border: 2px solid $color-palette-primary-400;
             
