@@ -1,5 +1,7 @@
 {
 
+    "lang" : "French",
+
     "nav-link-1" : "Home / Projects",
     "nav-link-2" : "About",
 
@@ -8,7 +10,7 @@
 
     "main-page-hero-text" : "I am a developer with a passion for user experience. From the initial design to the final product, I enjoy designing interfaces that are adapted to users needs.",
     "main-page-hero-btn-text" : "View my projects",
-    "main-page-hero-image-caption" : "c'est moi !",
+    "main-page-hero-image-caption" : "it's me !",
     "main-page-hero-contact-me" : "Contact-me ! :)",
 
     "main-page-testimonies-title" : "They trusted me",
@@ -40,7 +42,7 @@
     "about-page-hero-tag-9" : "#reading",
     "about-page-hero-tag-10" : "#vision",
 
-    "about-page-skills-title" : "My skils",
+    "about-page-skills-title" : "My skills",
     "about-page-skills-languages-text" : "The <span>languages</span> and <span>frameworks</span> that I use",
     "about-page-skills-tools-text" : "My main <span>tools</span> (web & design)",
     "about-page-skills-soft-title" : "My <span>soft</span> skills",
@@ -78,9 +80,9 @@
     "project-page-agilemans-process-text" : "I first realized the whole design on Figma as usual before justifying to the association the technology I was going to use, Next.js. This JavaScript framework is indeed the first thing I thought of to answer the speed criterion. It adds image optimization and static page rendering to React. Instead of hydrating the site dynamically with JavaScript, static HTML pages are generated, allowing at the same time to better index the site on search engines. What to make AgiLeMans known to the greatest number!",
     "project-page-agilemans-techs" : "Tools & technologies",
     "project-page-agilemans-cta-text" : "Go on the website",
-    "project-page-agilemans-next-page" : "Back to the projects ?",
+    "project-page-agilemans-next-page" : "Back to my projects ?",
 
 
-    "footer-text" : "©2023 - Développé by me with ❤️",
+    "footer-text" : "©2023 - Developed by me with ❤️",
     "footer-legal" : "Legal notices"
 }
