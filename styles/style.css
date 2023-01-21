@@ -686,13 +686,15 @@ p {
   background: hsl(67deg, 100%, 50%);
 }
 #testimonies .cont-testimonies {
-  margin-top: 6.25rem;
+  margin-top: 3.75rem;
+  padding: 0 0 1.25rem;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 20px;
-  align-items: flex-start;
-  flex-wrap: wrap;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
 }
 
 .testimony-card {
@@ -702,6 +704,7 @@ p {
   align-items: center;
   gap: 20px;
   flex-direction: column;
+  flex-shrink: 0;
   padding: 0.625rem 1.25rem;
   border-radius: 0.3125rem;
   max-width: 28.125rem;
@@ -724,6 +727,9 @@ p {
   height: 100%;
   object-fit: cover;
   border-radius: 9999px;
+}
+.testimony-card .right-text p::before, .testimony-card .right-text p::after {
+  content: '"';
 }
 .testimony-card .right-text p {
   font-family: "Urbanist-Regular", sans-serif;
@@ -907,6 +913,7 @@ p {
   box-shadow: -5px 5px 30px rgba(18, 32, 41, 0.15);
   position: absolute;
   cursor: pointer;
+  z-index: 1;
 }
 .about-me .left-tags .tag span {
   font-family: "Urbanist-Regular", sans-serif;
@@ -918,6 +925,7 @@ p {
 }
 .about-me .left-tags .tag.active {
   background: hsl(67deg, 100%, 50%);
+  z-index: 10;
 }
 .about-me .left-tags .tag.active span {
   color: hsl(203deg, 39%, 12%);
@@ -966,6 +974,36 @@ p {
   .about-me .left-tags {
     display: none;
   }
+}
+.about-me .left-tags .tag-desc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0px;
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  clip-path: polygon(0 0, 100% 0, 100% 90%, 35% 90%, 15% 100%, 0 90%);
+  padding: 0.3125rem 0.3125rem 0.625rem;
+  background: hsl(203deg, 100%, 72%);
+  border-radius: 0.3125rem;
+  width: 250px;
+  height: 65px;
+  top: -67px;
+  text-align: center;
+  transition: opacity 0.2s ease-out;
+}
+.about-me .left-tags .tag-desc.active {
+  opacity: 1;
+  visibility: visible;
+}
+.about-me .left-tags .tag-desc span {
+  font-family: "Urbanist-Regular", sans-serif;
+  font-size: 1.125rem;
+  color: hsl(203deg, 39%, 12%);
+  line-height: 1.5;
+  letter-spacing: 0.03125rem;
+  font-size: 0.875rem;
 }
 .about-me .right-description {
   flex-basis: 55%;

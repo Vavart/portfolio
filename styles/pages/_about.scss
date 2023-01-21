@@ -22,9 +22,12 @@
             @include tag();
             position: absolute;
             cursor: pointer;
+            z-index: 1;
 
             &.active {
                 background: $color-palette-tertiary-400;
+                z-index: 10;
+                
 
                 span {
                     color: $color-palette-primary-400;
@@ -35,6 +38,7 @@
         .tag:nth-child(1) {
             top: -110px;
             left: -30px;
+
         }
         .tag:nth-child(2) {
             top: -135px;
@@ -76,6 +80,32 @@
         @include media-large {
            display: none;
         }
+
+        .tag-desc {
+            @include flex();
+            opacity: 0;
+            visibility: hidden;
+            position: absolute;
+            clip-path: polygon(0 0, 100% 0, 100% 90%, 35% 90%, 15% 100%, 0 90%);
+            padding: $space-50 $space-50 $space-100;
+            background: $color-palette-secondary-400;
+            border-radius: $space-50;
+            width: 250px;
+            height: 65px;
+            top: -67px;
+            text-align: center;
+            transition: opacity 0.2s ease-out;
+            
+            &.active {
+                opacity: 1;
+                visibility: visible;
+            }
+
+            span {
+                @include text($size: "small");
+            }
+        }
+
     }
 
     .right-description {

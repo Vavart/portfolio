@@ -111,9 +111,11 @@
 
     
     .cont-testimonies {
-        margin-top: $space-700;
-        @include flex($gap: 20px, $align : "start");
-        flex-wrap: wrap;
+        margin-top: $space-600;
+        padding: 0 0 $space-200;
+        @include flex($gap: 20px, $align : "center", $justify: "start");
+        flex-wrap: nowrap;
+        overflow-x: scroll;
     }
 }
 
@@ -122,6 +124,7 @@
 .testimony-card {
     background: $color-palette-white;
     @include flex($gap: 20px, $col : true);
+    flex-shrink: 0; // Avoid shriking
     padding: $space-100 $space-200;
     border-radius: $space-50;
     max-width: 3*$space-800;
@@ -145,6 +148,7 @@
     }
 
     .right-text {
+        p::before, p::after {content: "\0022" }
         p { @include text($type: "italic", $size: "small"); }
         span { 
             display: inline-block;
