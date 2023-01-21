@@ -17,7 +17,7 @@
     <meta name="theme-color" content="#122029">
 
     <link rel="stylesheet" href="styles/style.css">
-    <script src="scripts/app.js" defer></script>
+    <script src="scripts/translation.js" defer></script>
 </head>
 <body>
 
@@ -30,53 +30,53 @@
         </a>
         
         <div class="nav-links">
-            <a href="index.html">Accueil / Projets</a>
-            <a href="about.html">À propos</a>
+            <a href="index.html" data-lang="nav-link-1">Accueil / Projets</a>
+            <a href="about.html" data-lang="nav-link-2">À propos</a>
         </div>
         
         <button class="lang">
             <div class="cont-flag">
                 <img src="assets/icons/us_flag.svg" alt="usa flag">
             </div>
-            <span>Anglais</span>
+            <span data-lang="lang">Anglais</span>
         </button>
     </nav>
 
     <!-- Main page -->
     <main class="page g-small blog-mode mentions_legales">
 
-        <h1 class="after">Mentions <span>légales</span></h1>
+        <h1 class="after" data-lang="legal-title">Mentions <span>légales</span></h1>
 
         <div class="edition">
-            <h2>Édition du site Internet</h2>
-            <p>Le site https://maximesciare.com (ci-après « le Site ») est édité par Maxime Sciare.</p>
+            <h2 data-lang="legal-edition-title">Édition du site Internet</h2>
+            <p data-lang="legal-edition-text">Le site https://maximesciare.com (ci-après « le Site ») est édité par Maxime Sciare.</p>
         </div>
 
         <div class="redaction">
-            <h2>Rédaction du site Internet</h2>
-            <p>Directeur de la publication : Maxime Sciare</p>
-            <p>Contact : bonjour@maximesciare.com</p>
+            <h2 data-lang="legal-redaction-title">Rédaction du site Internet</h2>
+            <p data-lang="legal-redaction-text-1">Directeur de la publication : Maxime Sciare</p>
+            <p data-lang="legal-redaction-text-2">Contact : bonjour@maximesciare.com</p>
         </div>
 
         <div class="hebergement">
-            <h2>Hébergement du site Internet</h2>
-            <p>Le site https://maximesciare.com est hébergé par OVH, 2 rue Kellermann, 59100 Roubaix.</p>
+            <h2 data-lang="legal-hosting-title">Hébergement du site Internet</h2>
+            <p data-lang="legal-hosting-text">Le site https://maximesciare.com est hébergé par OVH, 2 rue Kellermann, 59100 Roubaix.</p>
         </div>
 
         <div class="pi">
-            <h2>Respect de la propriété intellectuelle</h2>
-            <p>Toutes les marques, photographies, textes, commentaires, illustrations, images animées ou non, séquences vidéo, sons, ainsi que toutes les applications informatiques qui pourraient être utilisées pour faire fonctionner le Site et plus généralement tous les éléments reproduits ou utilisés sur le Site sont protégés par les lois en vigueur au titre de la propriété intellectuelle.</p>
+            <h2 data-lang="legal-respect-title">Respect de la propriété intellectuelle</h2>
+            <p data-lang="legal-respect-text-1">Toutes les marques, photographies, textes, commentaires, illustrations, images animées ou non, séquences vidéo, sons, ainsi que toutes les applications informatiques qui pourraient être utilisées pour faire fonctionner le Site et plus généralement tous les éléments reproduits ou utilisés sur le Site sont protégés par les lois en vigueur au titre de la propriété intellectuelle.</p>
 
-            <p>Ils sont la propriété pleine et entière de l'Éditeur ou de ses partenaires, sauf mentions particulières. Toute reproduction, représentation, utilisation ou adaptation, sous quelque forme que ce soit, de tout ou partie de ces éléments, y compris les applications informatiques, sans l'accord préalable et écrit de l'Éditeur, sont strictement interdites. Le fait pour l'Éditeur de ne pas engager de procédure dès la prise de connaissance de ces utilisations non autorisées ne vaut pas acceptation desdites utilisations et renonciation aux poursuites.</p>
+            <p data-lang="legal-respect-text-2">Ils sont la propriété pleine et entière de l'Éditeur ou de ses partenaires, sauf mentions particulières. Toute reproduction, représentation, utilisation ou adaptation, sous quelque forme que ce soit, de tout ou partie de ces éléments, y compris les applications informatiques, sans l'accord préalable et écrit de l'Éditeur, sont strictement interdites. Le fait pour l'Éditeur de ne pas engager de procédure dès la prise de connaissance de ces utilisations non autorisées ne vaut pas acceptation desdites utilisations et renonciation aux poursuites.</p>
 
-            <p>Seule l'utilisation pour un usage privé dans un cercle de famille est autorisée et toute autre utilisation est constitutive de contrefaçon et/ou d'atteinte aux droits voisins, sanctionnées par le Code de la propriété intellectuelle.</p>
+            <p data-lang="legal-respect-text-3">Seule l'utilisation pour un usage privé dans un cercle de famille est autorisée et toute autre utilisation est constitutive de contrefaçon et/ou d'atteinte aux droits voisins, sanctionnées par le Code de la propriété intellectuelle.</p>
 
-            <p>La reprise de tout ou partie de ce contenu nécessite l'autorisation préalable de l'Éditeur ou du titulaire des droits sur ce contenu.</p>
+            <p data-lang="legal-respect-text-3">La reprise de tout ou partie de ce contenu nécessite l'autorisation préalable de l'Éditeur ou du titulaire des droits sur ce contenu.</p>
         </div>
 
         <div class="links">
-            <h2>Liens hypertextes</h2>
-            <p>Le Site peut contenir des liens hypertextes donnant accès à d’autres sites Internet édités et gérés par des tiers et non par l'Éditeur. L’Editeur ne pourra être tenu responsable directement ou indirectement dans le cas où lesdits sites tiers ne respecteraient pas les dispositions légales.</p>
+            <h2 data-lang="legal-links-title">Liens hypertextes</h2>
+            <p data-lang="legal-links-text">Le Site peut contenir des liens hypertextes donnant accès à d'autres sites Internet édités et gérés par des tiers et non par l'Éditeur. L'Editeur ne pourra être tenu responsable directement ou indirectement dans le cas où lesdits sites tiers ne respecteraient pas les dispositions légales.</p>
         </div>
 
     </main>
@@ -89,8 +89,8 @@
         </div>
 
         <div class="footer-text">
-            <p>©2023 - Développé par mes soins avec ❤️</p>
-            <a href="mentions_legales.html">Mentions légales</a>
+            <p data-lang="footer-text">©2023 - Développé par mes soins avec ❤️</p>
+            <a href="mentions_legales.html" data-lang="footer-legal">Mentions légales</a>
         </div>
 
         <div class="cont-socials">

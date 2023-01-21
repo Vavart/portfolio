@@ -82,6 +82,22 @@
     "project-page-agilemans-cta-text" : "Go on the website",
     "project-page-agilemans-next-page" : "Back to my projects ?",
 
+    "legal-title" : "<span>Legal</span> notices",
+    "legal-edition-title" : "Website edition",
+    "legal-edition-text" : "The site https://maximesciare.com (hereinafter 'the Site') is edited by Maxime Sciare.",
+    "legal-redaction-title" : "Website redaction",
+    "legal-redaction-text-1" : "Director of the publication : Maxime Sciare",
+    "legal-redaction-text-2" : "Contact: bonjour@maximesciare.com",
+    "legal-hosting-title" : "Website hosting",
+    "legal-hosting-text" : "The site https://maximesciare.com is hosted by OVH, 2 Kellermann street, 59100 Roubaix.",
+    "legal-respect-title" : "Respect for intellectual property",
+    "legal-respect-text-1" : "All trademarks, photographs, texts, comments, illustrations, animated or non-animated images, video sequences, sounds, as well as all computer applications that may be used to operate the Site and, more generally, all elements reproduced or used on the Site are protected by the laws in force with respect to intellectual property.",
+    "legal-respect-text-2" : "They are the full and complete property of the Publisher or its partners, unless otherwise specified. Any reproduction, representation, use or adaptation, in any form whatsoever, of all or part of these elements, including computer applications, without the prior written consent of the Publisher, is strictly prohibited. The Publisher's failure to take action upon becoming aware of such unauthorized use does not constitute acceptance of such use or a waiver of such action.",
+    "legal-respect-text-3" : "Only private use within the family circle is permitted and any other use constitutes an infringement of copyright and/or neighbouring rights, punishable under the Intellectual Property Code.",
+    "legal-respect-text-4" : "The use of all or part of this content requires the prior authorization of the Publisher or the holder of the rights to this content.",
+    "legal-links-title" : "Hypertext links",
+    "legal-links-text" : "The Site may contain hyperlinks to other Internet sites published and managed by third parties and not by the Publisher. The Editor cannot be held responsible directly or indirectly in the event that the said third-party sites do not comply with the legal provisions.",
+
 
     "footer-text" : "©2023 - Developed by me with ❤️",
     "footer-legal" : "Legal notices"
