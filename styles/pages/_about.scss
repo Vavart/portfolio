@@ -125,13 +125,6 @@
             position: relative;
 
             h3 { text-align: center; }
-
-            .cont-arrow {
-                position: absolute;
-                right: 0;
-                bottom: -$space-500;
-                transform: scaleX(-1) rotate(60deg);
-            }
         }
     }
 }
@@ -149,8 +142,9 @@
     padding: $space-800 $space-600;
     @include flex($col: true, $gap: 75px);
 
-    @include media-small {
-        padding: $space-800 $space-400;
+    @include media-medium {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+        padding: $space-600 $space-200 $space-800;
     }
 
     .cont-title {
@@ -161,7 +155,7 @@
         }
         
         hr {
-            width: 10%;
+            width: 30%;
             height: 3px;
             margin: $space-100 auto;
             border: none;
@@ -186,7 +180,7 @@
                 max-width: none;
             }
 
-            @include media-small {
+            @include media-xsmall {
                 max-width: 300px;
             }
 

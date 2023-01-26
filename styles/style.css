@@ -109,6 +109,11 @@ body {
 .page.blog-mode {
   padding: 1.25rem clamp(1.875rem, 15vw, 15rem);
 }
+@media (max-width: 744px) {
+  .page.blog-mode {
+    padding: 1.25rem;
+  }
+}
 
 .g-small {
   gap: 3.125rem;
@@ -696,6 +701,15 @@ p {
   flex-wrap: nowrap;
   overflow-x: scroll;
 }
+#testimonies .cont-testimonies::-webkit-scrollbar {
+  height: 0.3125rem;
+  border-radius: 0.3125rem;
+  background: rgba(255, 255, 255, 0.2);
+}
+#testimonies .cont-testimonies::-webkit-scrollbar-thumb:horizontal {
+  background: hsl(203deg, 100%, 72%);
+  border-radius: 0.3125rem;
+}
 
 .testimony-card {
   background: hsl(0deg, 0%, 100%);
@@ -1036,9 +1050,15 @@ p {
 }
 .about-me .right-description .cont-h3 .cont-arrow {
   position: absolute;
-  right: 0;
-  bottom: -3.125rem;
-  transform: scaleX(-1) rotate(60deg);
+  right: 3.125rem;
+  top: 1.875rem;
+  width: clamp(1.25rem, 12vw, 12.5rem);
+  height: 12.5rem;
+  z-index: 10;
+}
+.about-me .right-description .cont-h3 .cont-arrow img {
+  width: 100%;
+  height: 100%;
 }
 
 .my-skills {
@@ -1054,9 +1074,10 @@ p {
   gap: 75px;
   flex-direction: column;
 }
-@media (max-width: 596px) {
+@media (max-width: 744px) {
   .my-skills {
-    padding: 9.375rem 2.5rem;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    padding: 3.75rem 1.25rem 9.375rem;
   }
 }
 .my-skills .cont-title h2 {
@@ -1074,7 +1095,7 @@ p {
   position: relative;
 }
 .my-skills .cont-title hr {
-  width: 10%;
+  width: 30%;
   height: 3px;
   margin: 0.625rem auto;
   border: none;
@@ -1112,7 +1133,7 @@ p {
     max-width: none;
   }
 }
-@media (max-width: 596px) {
+@media (max-width: 450px) {
   .my-skills .skills .languages-tools {
     max-width: 300px;
   }
@@ -1244,6 +1265,7 @@ p {
 
 .cont-project-title {
   margin-top: 2.5rem;
+  text-align: center;
 }
 .cont-project-title p {
   margin-top: 0.625rem;

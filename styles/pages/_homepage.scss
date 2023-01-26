@@ -116,6 +116,17 @@
         @include flex($gap: 20px, $align : "center", $justify: "start");
         flex-wrap: nowrap;
         overflow-x: scroll;
+
+        &::-webkit-scrollbar{
+            height: $space-50;
+            border-radius: $space-50;
+            background: $color-palette-gray;
+        }
+
+        &::-webkit-scrollbar-thumb:horizontal{
+            background: $color-palette-secondary-400;
+            border-radius: $space-50;
+        }
     }
 }
 
