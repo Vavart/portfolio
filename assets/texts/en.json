@@ -28,6 +28,12 @@
     "main-page-project-livrotheque-type" : "Book loan",
     "main-page-project-livrotheque-title" : "Livrothèque",
 
+    "main-page-project-awaketissu-type" : "Mockup",
+    "main-page-project-awaketissu-title" : "Awake Tissu",
+
+    "main-page-project-vavart-type" : "Discord bot",
+    "main-page-project-vavart-title" : "Vavart",
+
     "main-page-next-page-text" : "Want to know more about me ?",
 
     "about-page-hero-title" : "I am (soon to become) an engineer specializing in person / system <span>interactions</span>",
@@ -108,6 +114,24 @@
     "project-page-livrotheque-role-text" : "In a student context here, my goal was to discover how to link (for the first time) a database to a static website. The challenge was big but very rewarding. Developing a complete project allows to concretely implement the skills acquired in the past and to progress.",
     "project-page-livrotheque-process-text" : "As usual I first realized the whole design of the site on Figma before moving to the implementation of the database. The relationships were quite simple to set up, the objective being above all to learn how to integrate this database to the site using PHP. The rest of the project is quite linear, I first developed the whole front-end (including responsive) before integrating the PHP and SQL queries. Having still some time available before the final rendering, I was able to implement a login system with the possibility to update his personal information. A long project to do alone, but very rewarding afterwards.",
     "project-page-livrotheque-cta-text" : "View on GitHub",
+
+    "project-page-awaketissu-title" : "La <span>Livrothèque<span>",
+    "project-page-awaketissu-subtitle" : "Un site de bibliothèque pour lecteurs curieux !",
+    "project-page-awaketissu-summary" : "Ce site fictif est un projet que j'ai mené pendant mes études. L'objectif visé ici était de développer une interface complète en full-stack. La Livrothèque propose aux utilisateurs d'emprunter les livres de la bibliothèque à travers l'interface du site. Une interface administrateur est disponible pour les gérants de la bibliothèque, leur donnant la possibilité de gérer le stock (commande, édition de livre, suppression) et les emprunts des clients.",
+    "project-page-awaketissu-catch-phrase" : "Si j'avais pu développer beaucoup d'interfaces en front-end par le passé, ce projet fut ma première expérience avec le back-end.",
+    "project-page-awaketissu-role-text" : "Dans un contexte d'étudiant ici, mon but était de découvrir comment lier (pour la première fois) une base de données à un site web statique. Le défi était de taille mais très enrichissant. Développer un projet complet permet de concrètement mettre en place les compétences acquises par le passé et de progresser.",
+    "project-page-awaketissu-process-text" : "Comme à mon habitude j'ai premièrement réalisé l'ensemble du design du site sur Figma avant de passer à l'implémentation de la base de données. Les relations étaient assez simple à mettre en place, l'objectif étant avant tout d'apprendre à intégrer cette base de données au site à l'aide de PHP. La suite du projet est assez linéaire, j'ai développé en premier toute la partie front-end (responsive inclus) avant d'intégrer le PHP et les requêtes SQL. Ayant encore du temps disponible avant le rendu final, j'ai pu implémenter un système de connexion avec la possibilité de mettre à jour ses informations personnelles. Un projet long à mener en solitaire, mais très enrichissant après coup.",
+    "project-page-awaketissu-cta-text" : "Voir le projet sur GitHub",
+
+    "project-page-vavart-title" : "<span>Vavart<span>",
+    "project-page-vavart-subtitle" : "A discord bot to organize your private games in Rainbow Six : Siege !",
+    "project-page-vavart-summary" : "Ce site fictif est un projet que j'ai mené pendant mes études. L'objectif visé ici était de développer une interface complète en full-stack. La Livrothèque propose aux utilisateurs d'emprunter les livres de la bibliothèque à travers l'interface du site. Une interface administrateur est disponible pour les gérants de la bibliothèque, leur donnant la possibilité de gérer le stock (commande, édition de livre, suppression) et les emprunts des clients.",
+    "project-page-vavart-catch-phrase" : "Si j'avais pu développer beaucoup d'interfaces en front-end par le passé, ce projet fut ma première expérience avec le back-end.",
+    "project-page-vavart-role-text" : "Dans un contexte d'étudiant ici, mon but était de découvrir comment lier (pour la première fois) une base de données à un site web statique. Le défi était de taille mais très enrichissant. Développer un projet complet permet de concrètement mettre en place les compétences acquises par le passé et de progresser.",
+    "project-page-vavart-process-text" : "Comme à mon habitude j'ai premièrement réalisé l'ensemble du design du site sur Figma avant de passer à l'implémentation de la base de données. Les relations étaient assez simple à mettre en place, l'objectif étant avant tout d'apprendre à intégrer cette base de données au site à l'aide de PHP. La suite du projet est assez linéaire, j'ai développé en premier toute la partie front-end (responsive inclus) avant d'intégrer le PHP et les requêtes SQL. Ayant encore du temps disponible avant le rendu final, j'ai pu implémenter un système de connexion avec la possibilité de mettre à jour ses informations personnelles. Un projet long à mener en solitaire, mais très enrichissant après coup.",
+    "project-page-vavart-cta-text" : "View on GitHub",
+
+    
 
     
     "legal-title" : "<span>Legal</span> notices",

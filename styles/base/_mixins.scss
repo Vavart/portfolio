@@ -178,6 +178,12 @@ $breakpoints-width: (
         color: $color-palette-tertiary-400;
     }
 
+    @if $type == "disabled" {
+        cursor: not-allowed;
+        background: $color-palette-tertiary-disabled;
+        color: $color-palette-primary-disabled;
+    }
+
     @else {
         &:hover {background-color: $color-palette-tertiary-200;}
         transition: background-color 0.2s ease-in-out;

@@ -10,6 +10,13 @@ body {
     background: linear-gradient(180deg, $color-palette-gradient-primary  0.15%, $color-palette-gradient-secondary 290%);
 }
 
+// Selection 
+
+::selection {
+    background: $color-palette-tertiary-400;
+    color: $color-palette-primary-400;
+}
+
 // Page
 
 .page {
@@ -23,6 +30,8 @@ body {
         }
     }
 }
+
+// Gap props
 
 .g-small {
     gap: $space-500;
@@ -253,5 +262,6 @@ p { @include text(); }
 
 .btn-cta { @include button(); }
 .btn-cta.ghost { @include button($type: "ghost"); }
+.btn-cta.disabled { @include button($type: "disabled")}
 .btn-cta.icon { @include button($icon: true); }
 .btn-cta.icon.ghost { @include button($type: "ghost", $icon: true); }
