@@ -512,10 +512,6 @@ p {
   border: 2px solid hsl(67deg, 100%, 50%);
   background: transparent;
   color: hsl(67deg, 100%, 50%);
-  transition: background-color 0.2s ease-in-out;
-}
-.btn-cta.ghost:hover {
-  background-color: hsl(67deg, 100%, 45%);
 }
 
 .btn-cta.disabled {
@@ -531,9 +527,16 @@ p {
   border-radius: 0.3125rem;
   background-color: hsl(67deg, 100%, 50%);
   cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
   cursor: not-allowed;
   background: #ECFF66;
   color: #424242;
+}
+.btn-cta.disabled:hover {
+  background-color: hsl(67deg, 100%, 45%);
+}
+.btn-cta.disabled:hover {
+  background-color: #ECFF66;
 }
 
 .btn-cta.icon {
@@ -579,14 +582,10 @@ p {
   border: 2px solid hsl(67deg, 100%, 50%);
   background: transparent;
   color: hsl(67deg, 100%, 50%);
-  transition: background-color 0.2s ease-in-out;
   display: inline-flex;
   justify-content: center;
   align-items: center;
   gap: 10px;
-}
-.btn-cta.icon.ghost:hover {
-  background-color: hsl(67deg, 100%, 45%);
 }
 .btn-cta.icon.ghost img {
   width: 30px;
