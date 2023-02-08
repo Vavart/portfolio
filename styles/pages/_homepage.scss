@@ -113,7 +113,7 @@
     .cont-testimonies {
         margin: $space-600 $space-100 0;
         padding: 0 0 $space-200;
-        @include flex($gap: 20px, $align : "center", $justify: "start");
+        @include flex($gap: 20px, $align : "center", $justify: "center");
         flex-wrap: nowrap;
         overflow-x: scroll;
 

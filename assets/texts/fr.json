@@ -37,12 +37,17 @@
     "main-page-project-vavart-type" : "Bot discord",
     "main-page-project-vavart-title" : "Vavart",
 
+    "main-page-project-sphere-type" : "Site web vitrine",
+    "main-page-project-sphere-title" : "SPHERE",
+
+    
+
     "main-page-next-page-text" : "Vous souhaitez en savoir plus sur moi ?",
 
     "about-page-hero-title" : "Je suis (bientôt) ingénieur spécialisé en <span>interactions</span> personne / système",
     "about-page-hero-text" : "Actuellement en 4ème année d'études d'ingénierie informatique, j'apprends aussi beaucoup en autonomie. J'aime lire et acquérir de nouvelles connaisances chaque jour, toujours dans le but de m'améliorer. Enfin, je me suis donné pour mission de faciliter la vie des utilisateurs, afin de leur permettre de progresser et de gagner du temps. Tout le monde déteste perdre son temps à cause d'une mauvaise interface !",
     "about-page-hero-in-short" : "En résumé :",
-    "about-page-hero-in-short-text" : "Développer des interfaces qui font <span>sens</span>",
+    "about-page-hero-in-short-text" : "Développer des interfaces qui ont du <span>sens</span>",
     "about-page-hero-tag-1-title" : "#web",
     "about-page-hero-tag-1-text" : "Mon univers de développement préféré !",
     "about-page-hero-tag-2-title" : "#gaming",
@@ -132,6 +137,14 @@
     "project-page-vavart-role-text" : "J'avais remarqué que l'on passait beaucoup (trop) de temps à s'organiser pour jouer ensemble entre amis. J'ai donc décidé de réaliser ce bot discord pour répondre à ce problème. Le bot se devait d'être fun et facile d'utilisation pour organiser les parties rapidement.",
     "project-page-vavart-process-text" : "Vavart est mon tout premier bot discord ! Je ne savais pas où ce projet allait me mener, je désirais simplement accélérer la création de parties privées pour jouer plus longtemps sans avoir à se prendre trop de temps pour se mettre d'accord. J'ai procédé par itérations. Le but premier était d'obtenir une première version fonctionnelle pour jouer au plus vite. C'est seulement dans une deuxième et troisième version que sont venus se greffer la mise en forme des messages et l'ajout d'autres fonctionnalités comme le déplacement des joueurs dans des salons vocaux par équipe. La conception en JavaScript était intéressante et plaisante à mettre en place, c'est un lanagage que j'aime beaucoup.",
     "project-page-vavart-cta-text" : "Voir le projet sur GitHub",
+
+    "project-page-sphere-title" : "<span>SPHERE<span>",
+    "project-page-sphere-subtitle" : "L'association des alumni de mon école !",
+    "project-page-sphere-summary" : "SPHERE est l'association des anciens de l'ENSIM de mon école. J'y ai fait mes premiers pas en novembre 2021 à la suite de leur journée annuelle. À l'image d'AgiLeMans, j'ai réalisé la communication de l'association en créant des visuels et des posts sur les réseaux sociaux mais j'ai surtout participé à la refonte du site internet !",
+    "project-page-sphere-catch-phrase" : "Une chouette collaboration pour ma première expérience avec Wordpress !",
+    "project-page-sphere-role-text" : "Ici, j'ai travaillé en collaboration avec Corentin B. un membre de l'association. L'objectif était de proposer un nouveau site web performant et surtout maintenable facilement par des personnes non nécessairement développeurs.",
+    "project-page-sphere-process-text" : "Le choix de la technologie s'est donc porté vers Wordpress. C'est un système de gestion de contenu gratuit, facile à intégrer à un site internet. Il permet de créer et surtout de maintenir des sites facilement à l'aide de son système de blocs de contenus. De plus, une partie blog est naturellement intégrée, ce qui permet à n'importe qui de publier des articles sans avoir à toucher une seule ligne de code. Une technologie pratique qui permet donc de concevoir des sites / blogs rapidement. Néanmoins, ayant l'habitude de développer chacun de mes sites à la main, j'ai été souvent frustré du manque de personnalisation qu'offrait l'outil.",
+    "project-page-sphere-cta-text" : "Visiter le site",
 
 
     "legal-title" : "Mentions <span>légales</span>",

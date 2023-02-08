@@ -37,6 +37,9 @@
     "main-page-project-vavart-type" : "Discord bot",
     "main-page-project-vavart-title" : "Vavart",
 
+    "main-page-project-sphere-type" : "Showcase website",
+    "main-page-project-sphere-title" : "SPHERE",
+
     "main-page-next-page-text" : "Want to know more about me ?",
 
     "about-page-hero-title" : "I am (soon to become) an engineer specializing in person / system <span>interactions</span>",
@@ -133,6 +136,14 @@
     "project-page-vavart-role-text" : "I had noticed that we were spending a lot of time (too much) to organize ourselves to play together with friends. So I decided to create this discord bot to answer this problem. The bot had to be fun and easy to use to organize games quickly.",
     "project-page-vavart-process-text" : "Vavart is my very first discord bot ! I didn't know where this project was going to take me, I just wanted to speed up the creation of private games to play longer without having to take too much time to agree between friends. I proceeded by iterations. The first goal was to get a first working version to play as soon as possible. Only in a second and third version I added message formatting and other features such as moving players into team voice chat rooms. The design in JavaScript was interesting and fun to implement, it's a lanagage that I really like.",
     "project-page-vavart-cta-text" : "View on GitHub",
+
+    "project-page-sphere-title" : "<span>SPHERE<span>",
+    "project-page-sphere-subtitle" : "My school's alumni association !",
+    "project-page-sphere-summary" : "SPHERE is the ENSIM alumni association of my school. I made my first steps in November 2021 following their annual day. As AgiLeMans, I was in charge of the communication of the association by creating visuals and posts on social networks but I especially participated in the redesign of the website!",
+    "project-page-sphere-catch-phrase" : "A great collaboration for my first experience with Wordpress !",
+    "project-page-sphere-role-text" : "In this case, I worked in collaboration with Corentin B. a member of the association. The goal was to propose a new website that would be efficient and easily maintainable by people who are not necessarily developers.",
+    "project-page-sphere-process-text" : "The choice of technology was made in favor of Wordpress. It is a free content management system, easy to integrate into a website. It allows you to create and maintain sites easily using its system of blocks of content. Furthermore, a blog part is naturally integrated, which facilitates anyone to publish articles without having to touch a single line of code. A handy technology that allows you to design sites / blogs quickly. Nevertheless, having the habit of developing each of my sites by hand, I was often frustrated by the lack of customization provided by the tool.",
+    "project-page-sphere-cta-text" : "Go on the website",
 
     
 
