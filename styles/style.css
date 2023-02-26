@@ -727,6 +727,7 @@ p {
   justify-content: center;
   align-items: center;
   gap: 20px;
+  justify-content: flex-start;
   flex-wrap: nowrap;
   overflow-x: scroll;
 }
@@ -860,6 +861,9 @@ p {
   .project-card .left-description {
     width: 100%;
     padding: 0.625rem 1.25rem;
+    border-top-left-radius: 0.3125rem;
+    border-top-right-radius: 0.3125rem;
+    border-bottom-left-radius: 0;
   }
 }
 .project-card .left-description .top-titles span {
@@ -927,6 +931,13 @@ p {
   object-fit: cover;
   border-top-right-radius: 0.3125rem;
   border-bottom-right-radius: 0.3125rem;
+}
+@media (max-width: 596px) {
+  .project-card .right-illustration .cont-pic img {
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0.3125rem;
+    border-bottom-right-radius: 0.3125rem;
+  }
 }
 
 .about-me {
