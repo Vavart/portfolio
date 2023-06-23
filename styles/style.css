@@ -1199,6 +1199,9 @@ p {
   width: 100%;
   height: 100%;
 }
+.my-skills .skills .languages-tools .cont-languages-icons .icon:hover {
+  transform: scale(1.1);
+}
 .my-skills .skills .soft-hard-skills {
   flex-basis: 50%;
   display: flex;
@@ -1290,6 +1293,29 @@ p {
   .my-skills .contact .cont-btns-contact a:first-child {
     margin-right: 0;
   }
+}
+.my-skills .contact .mail-contact {
+  margin-top: 1.25rem;
+}
+.my-skills .contact .mail-contact p {
+  font-family: "Urbanist-Regular", sans-serif;
+  font-size: 1.125rem;
+  color: hsl(203deg, 39%, 12%);
+  line-height: 1.5;
+  letter-spacing: 0.03125rem;
+  font-size: 0.875rem;
+  color: hsl(0deg, 0%, 100%);
+  text-align: center;
+}
+.my-skills .contact .mail-contact a {
+  font-family: "Urbanist-Regular", sans-serif;
+  font-size: 1.125rem;
+  color: hsl(203deg, 39%, 12%);
+  line-height: 1.5;
+  letter-spacing: 0.03125rem;
+  font-size: 0.875rem;
+  color: hsl(0deg, 0%, 100%);
+  color: hsl(67deg, 100%, 50%);
 }
 
 .cont-project-title {

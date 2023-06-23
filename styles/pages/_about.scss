@@ -204,6 +204,10 @@
                         width: 100%;
                         height: 100%;
                     }
+
+                    &:hover {
+                        transform: scale(1.1)
+                    }
                 }
             }
         }
@@ -274,6 +278,20 @@
                 @include media-medium {
                     margin-right: 0;
                 }
+            }
+        }
+
+        .mail-contact {
+            margin-top: $space-200;
+
+            p {
+                @include text($size: "small", $color: "light");
+                text-align: center;
+            }
+
+            a {
+                @include text($size: "small", $color: "light");
+                color: $color-palette-tertiary-400; // override text mixin color
             }
         }
     }
