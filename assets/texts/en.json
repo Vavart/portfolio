@@ -37,11 +37,15 @@
     "main-page-project-awaketissu-type" : "UX / UI",
     "main-page-project-awaketissu-title" : "Awake Tissu",
 
+    "main-page-project-sphere-type" : "Showcase website",
+    "main-page-project-sphere-title" : "SPHERE",
+
     "main-page-project-vavart-type" : "Discord bot",
     "main-page-project-vavart-title" : "Vavart",
 
-    "main-page-project-sphere-type" : "Showcase website",
-    "main-page-project-sphere-title" : "SPHERE",
+    "main-page-project-cineflix-type" : "Mobile Application",
+    "main-page-project-cineflix-title" : "Cineflix",
+
 
     "main-page-next-page-text" : "Want to know more about me ?",
 
@@ -134,14 +138,6 @@
     "project-page-awaketissu-process-text" : "Indeed, this mock-up is the last step before the development and deployment of the application. Starting from Samia's ideas and sketches, I started a UX approach in order to offer the best possible experience. The work consisted in understanding the personas, making low and high fidelity prototypes as well as thinking about the interactions. From there and with a regular communication, I designed step by step each screen of the application on Figma. This project was a very fulfilling experience both in terms of my skills and the pleasure I took in designing a concrete entrepreneurial project.",
     "project-page-awaketissu-cta-text" : "Visit the application (coming soon)",
 
-    "project-page-vavart-title" : "<span>Vavart<span>",
-    "project-page-vavart-subtitle" : "A discord bot to organize your private games in Rainbow Six : Siege !",
-    "project-page-vavart-summary" : "When you meet your friends to play, it's not to spend 20 minutes discussing teams, the map to play on, or how to vocally separate yourself from the others ! Vavart is the solution to all this, it allows you to automate the creation of private games of Rainbow Six: Siege (R6) on discord by generating a map and random teams. It even allows you to vocally separate the two teams in different rooms and bring them back together at the end of the game. Enough to easily play an extra game !",
-    "project-page-vavart-catch-phrase" : "A first experience with discord.js that opens doors to other ways of using web languages.",
-    "project-page-vavart-role-text" : "I had noticed that we were spending a lot of time (too much) to organize ourselves to play together with friends. So I decided to create this discord bot to answer this problem. The bot had to be fun and easy to use to organize games quickly.",
-    "project-page-vavart-process-text" : "Vavart is my very first discord bot ! I didn't know where this project was going to take me, I just wanted to speed up the creation of private games to play longer without having to take too much time to agree between friends. I proceeded by iterations. The first goal was to get a first working version to play as soon as possible. Only in a second and third version I added message formatting and other features such as moving players into team voice chat rooms. The design in JavaScript was interesting and fun to implement, it's a lanagage that I really like.",
-    "project-page-vavart-cta-text" : "View on GitHub",
-
     "project-page-sphere-title" : "<span>SPHERE<span>",
     "project-page-sphere-subtitle" : "My school's alumni association !",
     "project-page-sphere-summary" : "SPHERE is the ENSIM alumni association of my school. I made my first steps in November 2021 following their annual day. As AgiLeMans, I was in charge of the communication of the association by creating visuals and posts on social networks but I especially participated in the redesign of the website!",
@@ -150,9 +146,23 @@
     "project-page-sphere-process-text" : "The choice of technology was made in favor of Wordpress. It is a free content management system, easy to integrate into a website. It allows you to create and maintain sites easily using its system of blocks of content. Furthermore, a blog part is naturally integrated, which facilitates anyone to publish articles without having to touch a single line of code. A handy technology that allows you to design sites / blogs quickly. Nevertheless, having the habit of developing each of my sites by hand, I was often frustrated by the lack of customization provided by the tool.",
     "project-page-sphere-cta-text" : "Go on the website",
 
+    "project-page-vavart-title" : "<span>Vavart<span>",
+    "project-page-vavart-subtitle" : "A discord bot to organize your private games in Rainbow Six : Siege !",
+    "project-page-vavart-summary" : "When you meet your friends to play, it's not to spend 20 minutes discussing teams, the map to play on, or how to vocally separate yourself from the others ! Vavart is the solution to all this, it allows you to automate the creation of private games of Rainbow Six: Siege (R6) on discord by generating a map and random teams. It even allows you to vocally separate the two teams in different rooms and bring them back together at the end of the game. Enough to easily play an extra game !",
+    "project-page-vavart-catch-phrase" : "A first experience with discord.js that opens doors to other ways of using web languages.",
+    "project-page-vavart-role-text" : "I had noticed that we were spending a lot of time (too much) to organize ourselves to play together with friends. So I decided to create this discord bot to answer this problem. The bot had to be fun and easy to use to organize games quickly.",
+    "project-page-vavart-process-text" : "Vavart is my very first discord bot ! I didn't know where this project was going to take me, I just wanted to speed up the creation of private games to play longer without having to take too much time to agree between friends. I proceeded by iterations. The first goal was to get a first working version to play as soon as possible. Only in a second and third version I added message formatting and other features such as moving players into team voice chat rooms. The design in JavaScript was interesting and fun to implement, it's a lanagage that I really like.",
+    "project-page-vavart-cta-text" : "View on GitHub",
+
+    "project-page-cineflix-title" : "<span>Cineflix<span>",
+    "project-page-cineflix-subtitle" : "A mobile app to search, save and find your next movie to watch !",
+    "project-page-cineflix-summary" : "Cineflix is a mobile application based on The Movie Database. It allows users to search for films and save them as favorites. On each film page, users can watch the trailer and share the film on social medias and various messaging applications. They can also mark the film as watched or unwatched. Finally, a recommendation feature is available within the application, making suggestions to the users based on their preferences (= favorites) and popular films.",
+    "project-page-cineflix-catch-phrase" : "For a first mobile application, I'm very proud of the result!",
+    "project-page-cineflix-role-text" : "Cineflix is a project I realized during my studies, the aim of the project was to discover mobile development through a complete application, all with a user-oriented design. I had a lot of fun designing the application and considering the user experience in the process. Once the first version was finished, I had the opportunity to have it tested by other students, which was a great way of getting feedback and ending up with a truly satisfying release of the application!",
+    "project-page-cineflix-process-text" : "As I knew The Movie Database API, I wanted to offer an application with a good UX, enabling users to search for the movie they wanted. The project started on Figma, where I mocked up the entire application. Then, I discovered the Flutter environment and the Dart language on which Flutter is based. After taking a training course, I quickly got to grips with the language, which is probably one of my favorites ! Combined with an adapted VsCode environment, developing Cineflix was a lot of fun. Of course, there were a few difficulties along the way, but they didn't take away from the satisfaction of having developed an ergonomic application from A to Z. I'll be happy to develop other mobile applications with Flutter in the future !",
+    "project-page-cineflix-cta-text" : "View on GitHub",
     
 
-    
     "legal-title" : "<span>Legal</span> notices",
     "legal-edition-title" : "Website edition",
     "legal-edition-text" : "The site https://maximesciare.com (hereinafter 'the Site') is edited by Maxime Sciare (hereinafter 'the Editor').",

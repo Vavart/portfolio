@@ -37,14 +37,16 @@
     "main-page-project-awaketissu-type" : "UX / UI",
     "main-page-project-awaketissu-title" : "Awake Tissu",
 
-    "main-page-project-vavart-type" : "Bot discord",
-    "main-page-project-vavart-title" : "Vavart",
-
     "main-page-project-sphere-type" : "Site web vitrine",
     "main-page-project-sphere-title" : "SPHERE",
 
-    
+    "main-page-project-vavart-type" : "Bot discord",
+    "main-page-project-vavart-title" : "Vavart",
 
+    "main-page-project-cineflix-type" : "Application mobile",
+    "main-page-project-cineflix-title" : "Cineflix",
+
+    
     "main-page-next-page-text" : "Vous souhaitez en savoir plus sur moi ?",
 
     "about-page-hero-title" : "Je suis (bientôt) ingénieur spécialisé en <span>interactions</span> personne / système",
@@ -135,6 +137,14 @@
     "project-page-awaketissu-process-text" : "En effet, cette maquette est la dernière étape avant le développement et le déploiement de l'application. Parti des idées et croquis de Samia, j'ai débuté une démarche UX afin d'offrir la meilleure expérience possible. Le travail a consisté en la compréhension des personas, réalisation de prototypes basse et haute fidélité ainsi que la réflexion autour des interactions. À partir de là et avec une communicaton régulière, j'ai conçu pas à pas chaque écran de l'application sur Figma. Ce projet fut une expérience très enrichissante tant au niveau de mes compétences que du plaisir pris à concevoir un projet entrepreneurial concret.",
     "project-page-awaketissu-cta-text" : "Visiter l'application (à venir)",
 
+    "project-page-sphere-title" : "<span>SPHERE<span>",
+    "project-page-sphere-subtitle" : "L'association des alumni de mon école !",
+    "project-page-sphere-summary" : "SPHERE est l'association des anciens de l'ENSIM de mon école. J'y ai fait mes premiers pas en novembre 2021 à la suite de leur journée annuelle. À l'image d'AgiLeMans, j'ai réalisé la communication de l'association en créant des visuels et des posts sur les réseaux sociaux mais j'ai surtout participé à la refonte du site internet !",
+    "project-page-sphere-catch-phrase" : "Une chouette collaboration pour ma première expérience avec Wordpress !",
+    "project-page-sphere-role-text" : "Ici, j'ai travaillé en collaboration avec Corentin B. un membre de l'association. L'objectif était de proposer un nouveau site web performant et surtout maintenable facilement par des personnes non nécessairement développeurs.",
+    "project-page-sphere-process-text" : "Le choix de la technologie s'est donc porté vers Wordpress. C'est un système de gestion de contenu gratuit, facile à intégrer à un site internet. Il permet de créer et surtout de maintenir des sites facilement à l'aide de son système de blocs de contenus. De plus, une partie blog est naturellement intégrée, ce qui permet à n'importe qui de publier des articles sans avoir à toucher une seule ligne de code. Une technologie pratique qui permet donc de concevoir des sites / blogs rapidement. Néanmoins, ayant l'habitude de développer chacun de mes sites à la main, j'ai été souvent frustré du manque de personnalisation qu'offrait l'outil.",
+    "project-page-sphere-cta-text" : "Visiter le site",
+
     "project-page-vavart-title" : "<span>Vavart<span>",
     "project-page-vavart-subtitle" : "Un bot discord pour organiser vos parties privées sur Rainbow Six : Siege !",
     "project-page-vavart-summary" : "Quand on retrouve ses amis pour jouer, ce n'est pas pour passer 20 minutes à discuter des équipes, de la carte sur laquelle jouer ou encore de comment se séparer vocalement pour ne pas entendre les autres ! Vavart est la solution à tout cela, il permet d'automatiser la création de parties privées de Rainbow Six : Siege (R6) sur discord en générant une carte et des équipes aléatoires. Il permet même à l'aide d'une commande de séparer vocalement les deux équipes dans des salons différents et de les ramener ensemble à la fin de la partie. De quoi facilement jouer une partie supplémentaire !",
@@ -143,13 +153,13 @@
     "project-page-vavart-process-text" : "Vavart est mon tout premier bot discord ! Je ne savais pas où ce projet allait me mener, je désirais simplement accélérer la création de parties privées pour jouer plus longtemps sans avoir à se prendre trop de temps pour se mettre d'accord. J'ai procédé par itérations. Le but premier était d'obtenir une première version fonctionnelle pour jouer au plus vite. C'est seulement dans une deuxième et troisième version que sont venus se greffer la mise en forme des messages et l'ajout d'autres fonctionnalités comme le déplacement des joueurs dans des salons vocaux par équipe. La conception en JavaScript était intéressante et plaisante à mettre en place, c'est un lanagage que j'aime beaucoup.",
     "project-page-vavart-cta-text" : "Voir le projet sur GitHub",
 
-    "project-page-sphere-title" : "<span>SPHERE<span>",
-    "project-page-sphere-subtitle" : "L'association des alumni de mon école !",
-    "project-page-sphere-summary" : "SPHERE est l'association des anciens de l'ENSIM de mon école. J'y ai fait mes premiers pas en novembre 2021 à la suite de leur journée annuelle. À l'image d'AgiLeMans, j'ai réalisé la communication de l'association en créant des visuels et des posts sur les réseaux sociaux mais j'ai surtout participé à la refonte du site internet !",
-    "project-page-sphere-catch-phrase" : "Une chouette collaboration pour ma première expérience avec Wordpress !",
-    "project-page-sphere-role-text" : "Ici, j'ai travaillé en collaboration avec Corentin B. un membre de l'association. L'objectif était de proposer un nouveau site web performant et surtout maintenable facilement par des personnes non nécessairement développeurs.",
-    "project-page-sphere-process-text" : "Le choix de la technologie s'est donc porté vers Wordpress. C'est un système de gestion de contenu gratuit, facile à intégrer à un site internet. Il permet de créer et surtout de maintenir des sites facilement à l'aide de son système de blocs de contenus. De plus, une partie blog est naturellement intégrée, ce qui permet à n'importe qui de publier des articles sans avoir à toucher une seule ligne de code. Une technologie pratique qui permet donc de concevoir des sites / blogs rapidement. Néanmoins, ayant l'habitude de développer chacun de mes sites à la main, j'ai été souvent frustré du manque de personnalisation qu'offrait l'outil.",
-    "project-page-sphere-cta-text" : "Visiter le site",
+    "project-page-cineflix-title" : "<span>Cineflix<span>",
+    "project-page-cineflix-subtitle" : "Une application mobile pour rechercher, sauvegarder et trouver votre prochain film à regarder !",
+    "project-page-cineflix-summary" : "Cineflix est une application mobile basée sur The Movie Database. Elle permet à ses utilisateurs de rechercher des films et de les enregistrer comme favoris. Sur chaque page de film, les utilisateurs peuvent regarder la bande-annonce et partager le film sur les réseaux sociaux et les différentes applications de messagerie. Ils peuvent également marquer le film comme regardé ou non regardé. Enfin, un modèle de recommandation est disponible dans l'application, faisant des suggestions aux utilisateurs sur la base de leurs préférences (= favoris) et des films populaires.",
+    "project-page-cineflix-catch-phrase" : "Pour une première application mobile, je suis très fier du résultat !",
+    "project-page-cineflix-role-text" : "Cineflix est un projet que j'ai réalisé pendant mes études, le but était de découvrir le développement mobile à travers une application complète, le tout avec une conception orientée utilisateur. J'ai pris beaucoup de plaisir à designer l'application et prendre en compte l'expérience utilisateur dans le processus. Une fois la première version terminée, j'ai eu l'occasion de la faire tester à d'autres étudiants, un excellent moyen d'obtenir des retours pour aboutir à une version vraiment satisfaisante de l'application !",
+    "project-page-cineflix-process-text" : "Connaissant l'API de The Movie Database, je souhaitais proposer une application avec une bonne UX, permettant aux utilisateurs de rechercher le film qu'ils souhaitent. Le début du projet s'est donc plutôt déroulé sur Figma où j'ai maquetté l'ensemble de l'application. J'ai ensuite découvert l'environnement Flutter et le langage Dart sur lequel Flutter repose. Après avoir suivi une formation, j'ai très vite adhéré au langage, qui est probablement l'un de mes favoris ! Couplé à un environnement VsCode adapté, développer Cineflix était une bonne partie de plaisir. J'ai évidemment recontré des difficultés au long du trajet, mais elles n'ont rien enlevées à la satisfaction d'avoir développé une application ergonomique de A à Z. Je développerai volontiers d'autres applications mobiles avec Flutter dans le futur !",
+    "project-page-cineflix-cta-text" : "Voir le projet sur GitHub",
 
 
     "legal-title" : "Mentions <span>légales</span>",
