@@ -730,6 +730,8 @@ p {
   justify-content: flex-start;
   flex-wrap: nowrap;
   overflow-x: scroll;
+  cursor: grab;
+  cursor: -webkit-grab;
 }
 #testimonies .cont-testimonies::-webkit-scrollbar {
   height: 0.3125rem;
@@ -739,6 +741,10 @@ p {
 #testimonies .cont-testimonies::-webkit-scrollbar-thumb:horizontal {
   background: hsl(203deg, 100%, 72%);
   border-radius: 0.3125rem;
+}
+#testimonies .cont-testimonies.active {
+  cursor: grabbing;
+  cursor: -webkit-grabbing;
 }
 
 .testimony-card {

@@ -39,7 +39,7 @@ window.addEventListener("DOMContentLoaded", () => {
             })
 
         })
-        .catch (err => console.log(err));
+        // .catch (err => console.log(err));
     }
 
     // EN --> FR
@@ -63,7 +63,7 @@ window.addEventListener("DOMContentLoaded", () => {
             })
 
         })
-        .catch (err => console.log(err));
+        // .catch (err => console.log(err));
 
     }
 })
@@ -95,7 +95,7 @@ translateBtn.addEventListener("click", () => {
             })
 
         })
-        .catch (err => console.log(err));
+        // .catch (err => console.log(err));
     }
 
     // EN --> FR
@@ -119,7 +119,7 @@ translateBtn.addEventListener("click", () => {
             })
 
         })
-        .catch (err => console.log(err));
+        // .catch (err => console.log(err));
 
     }
 
