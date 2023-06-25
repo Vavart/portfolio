@@ -53,7 +53,9 @@
     <link rel="stylesheet" href="../styles/style.css">
 
     <!-- JS -->
-    <script src="../scripts/translation.js" defer></script>
+    <script defer src="../scripts/translation.js" ></script>
+    <script defer src="../scripts/navigation.js"></script>
+
     
 </head>
 <body>
@@ -62,18 +64,27 @@
 
     <!-- Navigation -->
     <nav>
-        <a href="../index.html" class="nav-brand">
+        <a href="index.html" class="nav-brand">
             <img src="../assets/icons/ms.svg" alt="logo">
         </a>
         
-        <div class="nav-links">
-            <a href="../index.html" data-lang="nav-link-1">Accueil / Projets</a>
-            <a href="../about.html" data-lang="nav-link-2">À propos</a>
+        <div class="nav-inner">
+
+            <button class="burger">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+            </button>
+            
+            <div class="nav-links">
+                <a href="../index.html" data-lang="nav-link-1">Accueil / Projets</a>
+                <a href="../about.html" data-lang="nav-link-2">À propos</a>
+            </div>
+            
         </div>
         
         <button class="lang">
             <div class="cont-flag">
-                <img src="../assets/icons/us_flag.svg" alt="usa flag">
+                <img src="assets/icons/us_flag.svg" alt="usa flag">
             </div>
             <span data-lang="lang">Anglais</span>
         </button>
