@@ -210,6 +210,36 @@ nav .lang span {
     display: none;
   }
 }
+nav .burger {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  width: 1.875rem;
+  height: 1.875rem;
+  display: none;
+}
+@media (max-width: 744px) {
+  nav .burger {
+    display: block;
+  }
+}
+nav .burger svg {
+  width: 100%;
+  height: 100%;
+}
+nav .burger svg.feather-menu {
+  stroke: hsl(67deg, 100%, 50%);
+}
+nav .burger svg.feather-x {
+  stroke: hsl(67deg, 100%, 50%);
+  display: none;
+}
+nav .burger.active svg.feather-menu {
+  display: none;
+}
+nav .burger.active svg.feather-x {
+  display: block;
+}
 
 .next-page-animation-right {
   animation: next-page-animation-right 0.3s;

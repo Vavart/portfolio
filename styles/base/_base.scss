@@ -120,6 +120,51 @@ nav {
             }
         }
     }
+
+    .burger {
+
+        // Reset button inherit properties
+        border: none;
+        background: transparent;
+
+        cursor: pointer;
+
+        width: $space-300;
+        height: $space-300;
+
+        display: none;
+
+        @include media-medium {
+            display: block;
+        }
+
+
+        svg {
+            width: 100%;
+            height: 100%;
+
+            &.feather-menu {
+                stroke: $color-palette-tertiary-400;
+            }
+            
+            &.feather-x {
+                stroke: $color-palette-tertiary-400;
+                display: none;
+            }
+        }
+
+        &.active {
+            svg {
+                &.feather-menu {
+                    display: none;
+                }
+                
+                &.feather-x {
+                    display: block;
+                }
+            }
+        }
+    }
 }
 
 // Next page
