@@ -14,17 +14,22 @@
     "main-page-hero-contact-me" : "Contactez-moi ! :)",
 
     "main-page-testimonies-title" : "Ils m'ont fait confiance",
-    "main-page-testimonies-samia-text" : "J'ai fait confiance à Maxime pour la réalisation de prototypes sur FIGMA, dans le cadre de la création de mon entreprise ! Je n'ai pas été déçue : j'ai retrouvé chez Maxime une oreille attentive, des conseils et un travail rigoureux et irréprochable ! Je recommande son travail et son professionnalisme ! Encore merci Maxime !",
-    "main-page-testimonies-samia-caption" : "Samia EL FAROUKI : Fondatrice d'Awake Tissu",
 
-    "main-page-testimonies-agilemans-text" : "Maxime s'occupa de la refonte de notre site web vieillissant cette année en utilisant des techniques plus modernes et réactives. Toute l'équipe de l'association fut enthousiasmée par le changement.",
-    "main-page-testimonies-agilemans-caption" : "L'association AgiLeMans",
+    "main-page-testimonies-jean-text" : "Maxime a travaillé avec nous à l'Institut de Chypre au sein de l'équipe de recherche de notre laboratoire de drones (USRL). Il a développé avec succès un nouveau système de reconnaissance d'image qui permettra l'atterrissage automatique de nos multicoptères. Cette grande réussite simplifiera les opérations quotidiennes de nos drones survolant la forêt chypriote, contribuant ainsi à une prévention plus efficace des incendies.",
+    "main-page-testimonies-jean-caption" : "Prof. Jean SCIARE, Directeur de Centre de Recherche, The Cyprus Institute",
+
+    "main-page-testimonies-samia-text" : "J'ai fait confiance à Maxime pour la réalisation de prototypes sur FIGMA, dans le cadre de la création de mon entreprise ! Je n'ai pas été déçue : j'ai retrouvé chez Maxime une oreille attentive, des conseils et un travail rigoureux et irréprochable ! Je recommande son travail et son professionnalisme ! Encore merci Maxime !",
+    "main-page-testimonies-samia-caption" : "Samia EL FAROUKI - Fondatrice d'Awake Tissu",
+
+    "main-page-testimonies-alice-text" : "J'ai eu l'occasion de travailler avec Maxime pour réaliser des supports de communication dans le cadre de deux associations (affiches, visuels pour les réseaux sociaux, plaquette de sponsoring...). Maxime a le sens du détail et sait être force de proposition tout en faisant preuve d'une grande écoute. C'est avec plaisir que je continuerai à travailler avec lui !",
+    "main-page-testimonies-alice-caption" : "Alice Delbecque - Scrum Master à Extia",
 
     "main-page-testimonies-corentin-text" : "J'ai travaillé avec Maxime sur la refonte du site web de notre association d'alumni. Il a fait preuve d'initiative pour proposer des solutions pertinentes, tout en sachant rester à l'écoute des idées des autres, et continue à maintenir le site depuis !",
     "main-page-testimonies-corentin-caption" : "Corentin B. - Ingénieur PhD",
 
-    "main-page-testimonies-alice-text" : "J'ai eu l'occasion de travailler avec Maxime pour réaliser des supports de communication dans le cadre de deux associations (affiches, visuels pour les réseaux sociaux, plaquette de sponsoring...). Maxime a le sens du détail et sait être force de proposition tout en faisant preuve d'une grande écoute. C'est avec plaisir que je continuerai à travailler avec lui !",
-    "main-page-testimonies-alice-caption" : "Alice Delbecque - Scrum Master à Extia",
+    "main-page-testimonies-agilemans-text" : "Maxime s'occupa de la refonte de notre site web vieillissant cette année en utilisant des techniques plus modernes et réactives. Toute l'équipe de l'association fut enthousiasmée par le changement.",
+    "main-page-testimonies-agilemans-caption" : "L'association AgiLeMans",
+
 
     "main-page-project-title" : "Mes <span>projets</span>",
 

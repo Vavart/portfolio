@@ -14,17 +14,22 @@
     "main-page-hero-contact-me" : "Contact-me ! :)",
 
     "main-page-testimonies-title" : "What others have to say",
+
+    "main-page-testimonies-jean-text" : "Maxime has been working with us at the Cyprus Institute within the Research Team of our Drone Laboratory (USRL). He has successfully developed a novel image-based recognition system that will allow for the automatic landing of our multi-copters. This great achievement will simplify the day-to-day operation of our drones flying over the Cyprus Forest, therefore contributing to more efficient fire prevention.",
+    "main-page-testimonies-jean-caption" : "Prof. Jean SCIARE, Research Center Director, The Cyprus Institute",
+
     "main-page-testimonies-samia-text" : "I tasked Maxime with creating Figma prototypes when I was starting my business. I was not disappointed : I found Maxime to be an attentive listener, offering rigorous and impeccable work as well as advice ! I recommend his work and his professionalism ! Thanks again Maxime!",
-    "main-page-testimonies-samia-caption" : "Samia EL FAROUKI : Awake Tissu founder",
-
-    "main-page-testimonies-agilemans-text" : "Maxime took care of the redesign of our aging website this year using more modern and responsive techniques. The whole team of the association was enthusiastic about the change.",
-    "main-page-testimonies-agilemans-caption" : "AgiLeMans association",
-
-    "main-page-testimonies-corentin-text" : "I worked with Maxime on the redesign of our alumni association's website. He took the initiative to propose relevant solutions, while listening to the ideas of others, and keeps on maintaining the website since then !",
-    "main-page-testimonies-corentin-caption" : "Corentin B. - PhD Engineer",
+    "main-page-testimonies-samia-caption" : "Samia EL FAROUKI - Awake Tissu founder",
 
     "main-page-testimonies-alice-text" : "I had the opportunity to work with Maxime in order to realize communication supports for two associations (posters, visuals for social networks, sponsoring leaflet...). Maxime has the sense of detail and knows how to be proactive while being a great listener. It is with pleasure that I will continue to work with him !",
     "main-page-testimonies-alice-caption" : "Alice Delbecque - Scrum Master at Extia",
+
+    "main-page-testimonies-corentin-text" : "I worked with Maxime on the redesign of our alumni association's website. He took the initiative to propose relevant solutions, while listening to the ideas of others, and keeps on maintaining the website since then !",
+    "main-page-testimonies-corentin-caption" : "Corentin B. - PhD Engineer",
+    
+    "main-page-testimonies-agilemans-text" : "Maxime took care of the redesign of our aging website this year using more modern and responsive techniques. The whole team of the association was enthusiastic about the change.",
+    "main-page-testimonies-agilemans-caption" : "AgiLeMans association",
+    
 
     "main-page-project-title" : "My <span>projects</span>",
 
