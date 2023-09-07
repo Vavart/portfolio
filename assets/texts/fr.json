@@ -8,7 +8,7 @@
 
     "main-page-hero-title" : "Enchanté, moi c'est <span>Maxime</span>",
 
-    "main-page-hero-text" : "Je suis un développeur web passionné par l'expérience utilisateur. Du design initial au produit final, j'apprécie énormément concevoir des interfaces adaptées aux besoins des utilisateurs.",
+    "main-page-hero-text" : "Je suis un designer et un développeur web orienté utilisateur (UX / UI). Dynamique et organisé je suis également passionné par l'efficacité personnelle et professionnelle.",
     "main-page-hero-btn-text" : "Voir mes projets",
     "main-page-hero-image-caption" : "c'est moi !",
     "main-page-hero-contact-me" : "Contactez-moi ! :)",
@@ -55,13 +55,11 @@
     "main-page-next-page-text" : "Vous souhaitez en savoir plus sur moi ?",
 
     "about-page-hero-title" : "Je suis (bientôt) ingénieur spécialisé en <span>interactions</span> personne / système",
-    "about-page-hero-text" : "Actuellement en 4ème année d'études d'ingénierie informatique, j'apprends aussi beaucoup en autonomie. J'aime lire et acquérir de nouvelles connaisances chaque jour, toujours dans le but de m'améliorer. Enfin, je me suis donné pour mission de faciliter la vie des utilisateurs, afin de leur permettre de progresser et de gagner du temps. Tout le monde déteste perdre son temps à cause d'une mauvaise interface !",
-    "about-page-hero-in-short" : "En résumé :",
-    "about-page-hero-in-short-text" : "Développer des interfaces qui ont du <span>sens</span>",
+    "about-page-hero-text" : "Actuellement en 5ème année d'études d'ingénierie informatique, je me spécialise dans la conception et le développement d'interfaces qui ont du sens pour les utilisateurs. Mon objectif est d'améliorer la vie quotidienne des gens et d'optimiser leur temps, en rendant les choses plus faciles pour eux. Cette passion pour la simplification des choses s'étend également à ma vie personnelle. Je suis tout aussi enthousiaste en ce qui concerne l'efficacité personnelle et professionnelle et j'investis régulièrement du temps dans l'exploration de ces sujets. Ma liste de lecture est souvent remplie de contenus sur l'organisation, la productivité et l'apprentissage. <br><br>Mais ce n'est pas tout : je m'épanouis également dans les défis, qu'ils soient d'ordre professionnel ou personnel. Ils me poussent à sortir de ma zone de confort et à découvrir des solutions innovantes. Enfin, je fais du sport régulièrement. Cela m'aide non seulement à rester en bonne forme physique, mais aussi à améliorer mon humeur et ma mémoire !",
     "about-page-hero-tag-1-title" : "#web",
     "about-page-hero-tag-1-text" : "Mon univers de développement préféré !",
     "about-page-hero-tag-2-title" : "#musique",
-    "about-page-hero-tag-2-text" : "Pour toutes les émotions !",
+    "about-page-hero-tag-2-text" : "Taylor Swift évidemment !",
     "about-page-hero-tag-3-title" : "#entrepreneurship",
     "about-page-hero-tag-3-text" : "Si vous saviez à quel point j'aime créer des choses ...",
     "about-page-hero-tag-4-title" : "#ergonomie",

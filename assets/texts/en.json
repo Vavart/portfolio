@@ -8,7 +8,7 @@
 
     "main-page-hero-title" : "Nice to meet you, I'm <span>Maxime</span>",
 
-    "main-page-hero-text" : "I am a web developer with a passion for user experience. From the initial design to the final product, I enjoy designing interfaces that are adapted to users' needs.",
+    "main-page-hero-text" : "I am a user-oriented web designer and developer (UX / UI). Dynamic and organized, I'm also passionate about personal and professional efficiency.",
     "main-page-hero-btn-text" : "View my projects",
     "main-page-hero-image-caption" : "that's me !",
     "main-page-hero-contact-me" : "Contact-me ! :)",
@@ -55,14 +55,11 @@
     "main-page-next-page-text" : "Want to know more about me ?",
 
     "about-page-hero-title" : "I am (soon to become) an engineer specializing in person / system <span>interactions</span>",
-    "about-page-hero-text" : "Currently in my 4th year of computer engineering studies, I am also learning a lot on my own. I like reading and acquiring new knowledge every day, always with the aim of improving myself. Finally, I have made it my mission to make users' lives easier, in order to help them progress and save time. Everyone hates to waste their time on poor interfaces !",
-    "about-page-hero-in-short" : "In a nutshell :",
-    "about-page-hero-in-short-text" : "Developing interfaces that make <span>sense</span>",
-
+    "about-page-hero-text" : "Currently in my 5th year of computer engineering studies, I specialize in the design and development of user-friendly interfaces. My goal is to improve people's daily lives and optimize their time, by making things easier for them. This passion for making things easier also extends to my personal life. I'm no less enthusiastic about personal and professional effectiveness, and I regularly invest time in exploring these subjects. My reading list is often filled with content on organization, productivity and learning. <br><br>But that's not all: I also thrive on challenges, whether professional or personal. They push me to get out of my comfort zone and discover new solutions. Finally, I exercise regularly. Not only does it help me stay in good physical shape, it also improves my mood and memory!",
     "about-page-hero-tag-1-title" : "#web",
     "about-page-hero-tag-1-text" : "My favorite development world !",
     "about-page-hero-tag-2-title" : "#music",
-    "about-page-hero-tag-2-text" : "For every mood !",
+    "about-page-hero-tag-2-text" : "Taylor Swift of course !",
     "about-page-hero-tag-3-title" : "#entrepreneurship",
     "about-page-hero-tag-3-text" : "If only you knew how much I love creating things ...",
     "about-page-hero-tag-4-title" : "#ergonomic",
