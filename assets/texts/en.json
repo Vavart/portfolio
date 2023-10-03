@@ -51,6 +51,9 @@
     "main-page-project-cineflix-type" : "Mobile Application",
     "main-page-project-cineflix-title" : "Cineflix",
 
+    "main-page-project-linkterz-type" : "UX / UI",
+    "main-page-project-linkterz-title" : "Linkterz",
+
 
     "main-page-next-page-text" : "Want to know more about me ?",
 
@@ -164,6 +167,14 @@
     "project-page-cineflix-role-text" : "Cineflix is a project I realized during my studies, the aim of the project was to discover mobile development through a complete application, all with a user-oriented design. I had a lot of fun designing the application and considering the user experience in the process. Once the first version was finished, I had the opportunity to have it tested by other students, which was a great way of getting feedback and ending up with a truly satisfying release of the application!",
     "project-page-cineflix-process-text" : "As I knew The Movie Database API, I wanted to offer an application with a good UX, enabling users to search for the movie they wanted. The project started on Figma, where I mocked up the entire application. Then, I discovered the Flutter environment and the Dart language on which Flutter is based. After taking a training course, I quickly got to grips with the language, which is probably one of my favorites ! Combined with an adapted VsCode environment, developing Cineflix was a lot of fun. Of course, there were a few difficulties along the way, but they didn't take away from the satisfaction of having developed an ergonomic application from A to Z. I'll be happy to develop other mobile applications with Flutter in the future !",
     "project-page-cineflix-cta-text" : "View on GitHub",
+
+    "project-page-linkterz-title" : "<span>Linkterz<span>",
+    "project-page-linkterz-subtitle" : "Your home automation application to manage your smart devices !",
+    "project-page-linkterz-summary" : "Linkterz is an academic project carried out within the scope of the ENSIM. It's a home automation application designed to meet a customer need created for the purpose, namely Linkterz. The company wanted to develop a new application (smartphone and tablet) for its connected equipment. With just a little information and a graphic chart, it's up to us to do the work !",
+    "project-page-linkterz-catch-phrase" : "One of the most satisfying UX / UI projects I've ever done",
+    "project-page-linkterz-role-text" : "As part of our user interface design course, I was asked to choose the Linkterz project. The role of the two of us is to generate creative and ergonomic ideas to best meet the customer's needs. As designers, we then think about all the UX (user experience) principles we've learned in class, and apply them to a concrete mock-up. The entire design process was conceived in such a way that the mock-up could be used and easily understood by future developers.",
+    "project-page-linkterz-process-text" : "Over a 3-week period, the two of us studied the company's needs by interviewing the teacher. By gathering information, we identified the different parts of the application, which enabled us to develop the first low-fidelity mock-ups. Then came the biggest part of the work, with the complete design of the application on Figma for smartphones and tablets. All in all, 127 screens (smartphone + tablet) were designed, not including similar paths which were not designed.",
+    "project-page-linkterz-cta-text" : "View on Figma",
     
 
     "legal-title" : "<span>Legal</span> notices",

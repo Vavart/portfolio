@@ -51,6 +51,9 @@
     "main-page-project-cineflix-type" : "Application mobile",
     "main-page-project-cineflix-title" : "Cineflix",
 
+    "main-page-project-linkterz-type" : "UX / UI",
+    "main-page-project-linkterz-title" : "Linkterz",
+
     
     "main-page-next-page-text" : "Vous souhaitez en savoir plus sur moi ?",
 
@@ -164,6 +167,14 @@
     "project-page-cineflix-role-text" : "Cineflix est un projet que j'ai réalisé pendant mes études, le but était de découvrir le développement mobile à travers une application complète, le tout avec une conception orientée utilisateur. J'ai pris beaucoup de plaisir à designer l'application et prendre en compte l'expérience utilisateur dans le processus. Une fois la première version terminée, j'ai eu l'occasion de la faire tester à d'autres étudiants, un excellent moyen d'obtenir des retours pour aboutir à une version vraiment satisfaisante de l'application !",
     "project-page-cineflix-process-text" : "Connaissant l'API de The Movie Database, je souhaitais proposer une application avec une bonne UX, permettant aux utilisateurs de rechercher le film qu'ils souhaitent. Le début du projet s'est donc plutôt déroulé sur Figma où j'ai maquetté l'ensemble de l'application. J'ai ensuite découvert l'environnement Flutter et le langage Dart sur lequel Flutter repose. Après avoir suivi une formation, j'ai très vite adhéré au langage, qui est probablement l'un de mes favoris ! Couplé à un environnement VsCode adapté, développer Cineflix était une bonne partie de plaisir. J'ai évidemment recontré des difficultés au long du trajet, mais elles n'ont rien enlevées à la satisfaction d'avoir développé une application ergonomique de A à Z. Je développerai volontiers d'autres applications mobiles avec Flutter dans le futur !",
     "project-page-cineflix-cta-text" : "Voir le projet sur GitHub",
+
+    "project-page-linkterz-title" : "<span>Linkterz<span>",
+    "project-page-linkterz-subtitle" : "Votre application de domotique pour gérer vos objects connectés !",
+    "project-page-linkterz-summary" : "Linkterz est un projet académique mené dans le cadre de l'ENSIM. C'est une application de domotique qui a pour objectif de répondre à un besoin client créé pour l'occasion, celui de Linkterz. En effet, l'entreprise souhaite développer sa nouvelle application (smartphone et tablette) pour ses équipements connectés. À partir de quelques informations et d'une charte graphique, à nous de faire le travail !",
+    "project-page-linkterz-catch-phrase" : "L'un des projets d'UX / UI les plus satisfaisant que j'ai pu réaliser",
+    "project-page-linkterz-role-text" : "Dans le cadre de nos cours de conception d'interfaces utilisateurs, j'ai été amené à choisir le projet Linkterz. À deux, notre rôle est de générer des idées créatives et ergonomiques pour répondre au mieux au besoin du client. En tant que designer, nous pensons alors à tous les principes d'UX (expérience utilisateur) vus en cours pour les appliquer sur une maquette concrète. Toute la conception a été pensée de manière à ce que la maquette puisse être utilisable et facilement compréhensible pour de futurs développeurs.",
+    "project-page-linkterz-process-text" : "À deux pendant 3 semaines, nous avons étudié le besoin de l'entreprise en passant des entretiens avec l'enseignante. En collectant les différentes informations, nous avons identifié les différentes parties de l'application, ce qui nous a permis de développer des premières maquettes dites basse fidélité (low-fi pour low-fidelity). Ensuite est venu le plus gros du travail avec la conception complète de la maquette de l'application sur Figma pour smartphone et tablette. Au total, cela représente 127 écrans (smartphone + tablette) conçus sans compter les parcours similaires qui n'ont pas été designés.",
+    "project-page-linkterz-cta-text" : "Voir le projet sur Figma",
 
 
     "legal-title" : "Mentions <span>légales</span>",
