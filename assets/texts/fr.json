@@ -53,6 +53,9 @@
 
     "main-page-project-linkterz-type" : "UX / UI",
     "main-page-project-linkterz-title" : "Linkterz",
+    
+    "main-page-project-swap-type" : "UX / UI",
+    "main-page-project-swap-title" : "SWAP",
 
     
     "main-page-next-page-text" : "Vous souhaitez en savoir plus sur moi ?",
@@ -175,6 +178,14 @@
     "project-page-linkterz-role-text" : "Dans le cadre de nos cours de conception d'interfaces utilisateurs, j'ai été amené à choisir le projet Linkterz. À deux, notre rôle est de générer des idées créatives et ergonomiques pour répondre au mieux au besoin du client. En tant que designer, nous pensons alors à tous les principes d'UX (expérience utilisateur) vus en cours pour les appliquer sur une maquette concrète. Toute la conception a été pensée de manière à ce que la maquette puisse être utilisable et facilement compréhensible pour de futurs développeurs.",
     "project-page-linkterz-process-text" : "À deux pendant 3 semaines, nous avons étudié le besoin de l'entreprise en passant des entretiens avec l'enseignante. En collectant les différentes informations, nous avons identifié les différentes parties de l'application, ce qui nous a permis de développer des premières maquettes dites basse fidélité (low-fi pour low-fidelity). Ensuite est venu le plus gros du travail avec la conception complète de la maquette de l'application sur Figma pour smartphone et tablette. Au total, cela représente 127 écrans (smartphone + tablette) conçus sans compter les parcours similaires qui n'ont pas été designés.",
     "project-page-linkterz-cta-text" : "Voir le projet sur Figma",
+
+    "project-page-swap-title" : "<span>SWAP<span>",
+    "project-page-swap-subtitle" : "Le site web de ressources pédagogiques !",
+    "project-page-swap-summary" : "SWAP est un prototype de site web réalisé à la suite d'une démarche UX dans le but de répondre au besoin de collaboration et de partage de ressources pédagogiques entre enseignants. Réalisé à la suite de plusieurs entretiens utilisateurs, il est le fruit de 6 mois de travail à raison de 8h par semaine. SWAP signifie Site Web Annuaire de ressources Pédagogiques.",
+    "project-page-swap-catch-phrase" : "C'était une vraie satisfaction de pouvoir trouver un besoin utilisateur existant et d'y répondre avec une vraie solution !",
+    "project-page-swap-role-text" : "Avec Théo Blandin, ce prototype représente notre projet de fin d'étude. À travers l'application complète de la démarche Design Thinking (excepté pour le développemet et le test), le but de ce projet était de passer par toutes les étapes de travail d'un UX Designer. J'ai pris beaucoup de plaisir à animer les différents ateliers que nous avons eu avec les utilisateurs à et brainstormer avec mon ami pour trouver des solutions innovantes. Le travail en binôme était particulièrement efficace pour ce genre de projet et a offert une merveilleuse fin d'études !",
+    "project-page-swap-process-text" : "Le projet a commencé par se focaliser sur une population spécifique : les professeurs de collège et de lycée. Dans l'objectif d'en savoir plus sur notre cible, il était nécessaire de l'interroger. Nous avons alors envoyé des mails aux établissements afin de convier les professeurs autour d'une table afin de comprendre leurs besoins. En nous servant d'une trame préalablement établie, nous avons pu confronter les idées reçues sur le métier d'enseignant pour obtenir une vraie image de leurs besoins. Ainsi, nous avons été en mesure de formuler une problématique à résoudre à la moitié du projet : 'Comment pourrions-nous favoriser la collaboration et le partage de ressources pédagogiques entre les enseignants'. La suite a consisté en plusieurs séances de brainstorming afin d'imaginer et de visualiser le concept permettant de répondre à la problématique. Puis, lorsque l'idée du site web est venue et que ses fonctionnalités furent détaillées, il était temps de le concevoir. À l'aide d'un zoning et avec la création d'un design system, nous avons été en mesure d'itérer petit à petit vers la conception d'un prototype complet.",
+    "project-page-swap-cta-text" : "Voir le projet sur Figma",
 
 
     "legal-title" : "Mentions <span>légales</span>",

@@ -1372,6 +1372,9 @@ p {
     margin-right: 0;
   }
 }
+.my-skills .contact .cont-btns-contact a:last-child {
+  cursor: not-allowed;
+}
 .my-skills .contact .mail-contact {
   margin-top: 1.25rem;
 }

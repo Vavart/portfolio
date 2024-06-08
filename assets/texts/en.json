@@ -54,6 +54,9 @@
     "main-page-project-linkterz-type" : "UX / UI",
     "main-page-project-linkterz-title" : "Linkterz",
 
+    "main-page-project-swap-type" : "UX / UI",
+    "main-page-project-swap-title" : "SWAP",
+
 
     "main-page-next-page-text" : "Want to know more about me ?",
 
@@ -175,7 +178,14 @@
     "project-page-linkterz-role-text" : "As part of our user interface design course, I was asked to choose the Linkterz project. The role of the two of us is to generate creative and ergonomic ideas to best meet the customer's needs. As designers, we then think about all the UX (user experience) principles we've learned in class, and apply them to a concrete mock-up. The entire design process was conceived in such a way that the mock-up could be used and easily understood by future developers.",
     "project-page-linkterz-process-text" : "Over a 3-week period, the two of us studied the company's needs by interviewing the teacher. By gathering information, we identified the different parts of the application, which enabled us to develop the first low-fidelity mock-ups. Then came the biggest part of the work, with the complete design of the application on Figma for smartphones and tablets. All in all, 127 screens (smartphone + tablet) were designed, not including similar paths which were not designed.",
     "project-page-linkterz-cta-text" : "View on Figma",
-    
+
+    "project-page-swap-title" : "<span>SWAP<span>",
+    "project-page-swap-subtitle" : "The teaching resources website!",
+    "project-page-swap-summary" : "SWAP is a prototype website created following a UX approach to meet the need for teachers to collaborate and share teaching resources. Created following several user interviews, it is the fruit of 6 months' work, 8 hours a week. SWAP stands for Site Web Annuaire de ressources Pédagogiques.",
+    "project-page-swap-catch-phrase" : "It was really satisfying to be able to find an existing user need and meet it with a real solution !",
+    "project-page-swap-role-text" : "With Théo Blandin, this prototype represents our end-of-study project. Through the full application of the Design Thinking approach (except for development and testing), the aim of this project was to go through all the stages of a UX Designer's work.I really enjoyed leading the various workshops we held with users, and brainstorming with my friend to come up with innovative solutions. Working in pairs was particularly effective for this kind of project, and made for a wonderful end to my studies!",
+    "project-page-swap-process-text" : "The project began by focusing on a specific population: secondary school teachers. In order to find out more about our target, it was necessary to interview them. We then sent emails to the schools, inviting the teachers to sit around a table to understand their needs. Using a pre-established framework, we were able to confront preconceived ideas about the teaching profession to get a true picture of their needs.Halfway through the project, we were able to formulate a problem to be solved: 'How can we encourage collaboration and the sharing of teaching resources between teachers?' This was followed by several brainstorming sessions to imagine and visualize the concept that would address the problem. Then, once the idea for the website had been developed and its functionalities detailed, it was time to design it. With the help of zoning and the creation of a design system, we were able to iterate little by little towards the design of a complete prototype.",
+    "project-page-swap-cta-text" : "View on Figma",
 
     "legal-title" : "<span>Legal</span> notices",
     "legal-edition-title" : "Website Editing",
